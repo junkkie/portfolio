@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'DungGeunMo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.intro{
+  width: 100vw;
+  height: 1080px;
+  margin: 0;
+  overflow: hidden;
+  color: #eaeaea;
+  background-color: hsla(0, 0%, 5%, 1);
+  font-family: 'DungGeunMo';
+}
+.intro::before{
+  content: "";
+  z-index: 1;
+  display: block;
+  position: absolute; left: 50%; top: 500px;
+  transform: translateX(-50%);
+  height: 100px;
+  border-radius: 100%;
+  background-color: #fff;
+  filter: blur(80px);
+  opacity: 0;
+  width: 0;
+  transition: all .5s ease-in-out 1s;
+}
+.intro.on::before{
+  opacity: 1;
+  width: 80vw;
+}
+
+.intro>h1{
+  text-align: center;
+  margin-top: 150px;
+  opacity: 0;
+  letter-spacing: 3px;
+  font-size: 40px;
+  text-shadow: 0px 10px 10px #9351d6, 0px 10px 20px #f052b1;
+  transition: all .5s ease-in .5s;
+}
+.intro>h1.on{
+  margin-top: 100px;
+  opacity: 1;
+}
+
+
+.characters{
+  z-index: 10;
+  position: relative; left: 50vw; top: 20vh;
+  justify-self: center;
+  width: 440px;
+  align-items: center;
+  transform: translateX(-50%);
+}
+.characters img{
+  width: 200px;
+}
+.char1{position: absolute; left: 0; top: -50px; z-index: 1; opacity: 0; transition: all .5s ease-in 2.5s;}
+.char2{position: absolute; left: 130px; top: 0px; z-index: 2; opacity: 0; transition: all .5s ease-in 2.8s;}
+.char3{position: absolute; left: 240px; top: -50px; z-index: 1; opacity: 0; transition: all .5s ease-in 2.5s;}
+
+.char1.on{top: 0; opacity: 1;}
+.char2.on{top: 60px; opacity: 1;}
+.char3.on{top: 0; opacity: 1;}
+
+.downbutton{
+  display: flex;
+  width: 100%;
+  height: 24px;
+  justify-content: center;
+  position: absolute;
+  pointer-events: none;
+  bottom: 24px;
+}
+.downbutton::before, .downbutton::after{
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: transparent;
+  -webkit-mask-image: url("//cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/src/android-arrow-dropdown.svg");
+          mask-image: url("//cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/src/android-arrow-dropdown.svg");
+  -webkit-mask-size: 24px 24px;
+          mask-size: 24px 24px;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  background-color: #eaeaea;
+}
+.downbutton::before{
+  position: absolute;
+}
+.downbutton::after{
+  position: relative;
+  -webkit-animation-duration: 0.9s;
+          animation-duration: 0.9s;
+  -webkit-animation-name: down;
+          animation-name: down;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes down {
+  from {
+    margin-top: 0;
+    opacity: 1;
+  }
+  to {
+    margin-top: 24px;
+    opacity: 0;
+  }
+}
+
+@keyframes down {
+  from {
+    margin-top: 0;
+    opacity: 1;
+  }
+  to {
+    margin-top: 24px;
+    opacity: 0;
+  }
+}

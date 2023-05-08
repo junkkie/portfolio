@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'DOSGothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.loading{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsla(0, 0%, 5%, 1);
+  font-family: 'DOSGothic';
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.loading>img{
+  position: absolute; left: 50vw; top: 20vh;
+  transform: translateX(-50%);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.loading>span:first-of-type{
+  position: absolute; left: 50vw; top: 73vh;
+  transform: translateX(-50%);
+  color: #eaeaea;
+  font-size: 2rem;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loading>span:last-of-type{
+  position: absolute; left: 50vw; top: 80vh;
+  transform: translateX(-50%);
+  color: #4d2f78;
+  font-size: 3rem;
 }
