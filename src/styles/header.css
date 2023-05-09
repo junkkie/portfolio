@@ -1,7 +1,7 @@
 .header{
   position: relative;
   width: 100vw;
-  height: 20vh;
+  height: 10vh;
 }
 .sideBtn{
   position: absolute; right: 70px; top: 70px;

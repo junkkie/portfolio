@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import '../styles/main.css'
 import Intro from '../components/Intro'
 import Header from '../components/Header'
+import myProfile from '../img/profile.png'
 
 const Main = () => {
   //배경 애니메이션
@@ -183,13 +184,13 @@ const Main = () => {
   <>
     <Intro />
 
-    <canvas id='canv'>  </canvas>
+    <canvas id='canv'></canvas>
 
     <div className='main'>
       <Header />
       <h2>Who am I</h2>
       <div className='info'>
-        <img className='profile_img' src='img/profile.png' alt='profile' />
+        <img className='profile_img' src={myProfile} alt='profile' />
         <p>
         <span>Name: 김서연</span><br />
         <span>Birth: 1998.02.09</span><br />

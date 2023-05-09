@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/modal.css'
 
 const Modal = ({setModalOpen}) => {
 
@@ -9,8 +10,8 @@ const Modal = ({setModalOpen}) => {
   return (
     <div className='modal'>
       <div className='modal_inner'>
-        <h2>Projects</h2>
-        <ul className='projects'>
+        <h2>LIST</h2>
+        <ul className='modal_list'>
           <li>SKILLS</li>
           <li>PROJECTS</li>
           <li>CONTACT</li>

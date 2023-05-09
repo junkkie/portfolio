@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Main from './routes/Main';
+import SHH from './img/shhh.png'
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -16,7 +17,7 @@ function App() {
     <>
     {loading ?
     <div className='loading'>
-      <img src='/img/shhh.png' alt='charactor' />
+      <img src={SHH} alt='charactor' />
       <span>0%</span>
       <span>SHHHHHHH!</span>
     </div>
@@ -24,8 +25,6 @@ function App() {
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path='/' element={<Main />} />
-        <Route path='/' />
-        <Route path='/' />
       </Routes>
     </BrowserRouter>
     }

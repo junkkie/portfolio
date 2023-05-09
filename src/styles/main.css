@@ -13,16 +13,55 @@
 }
 .main{
   position: absolute;
-  width: 100vw; height: auto;
+  width: 100vw; height: 90vh;
   color: #eaeaea;
   font-family: 'DungGeunMo';
 }
+.main>h2{
+  margin: 0;
+  margin-left: 300px;
+  margin-bottom: 50px;
+  font-size: 3vw;
+}
+.info{
+  margin-left: 300px;
+}
+.profile_img{
+  margin-left: 40px;
+}
+.info>p:first-of-type{
+  position: absolute; left: 35vw; top: 30vh;
+  font-size: 1.5rem;
+}
+.info>p:last-of-type{
+  position: absolute; left: 55vw; top: 30vh;
+  font-size: 1.5rem;
+}
+.main_intro{
+  position: absolute; left: 0; top: 50vh;
+  margin-left: 300px;
+  font-size: 1.7rem;
+  line-height: 40px;
+}
+.main_intro>h3{
+  font-weight: 550;
+  letter-spacing: 2px;
+  text-shadow: 0px 10px 10px #9351d6, 0px 10px 20px #f052b1;
+}
 
 .dog{
-  width: 50px; height: 50px;
-  background: url(../../public/img/among-us-dog.png) no-repeat 0 0;
+  width: 70px; height: 70px;
+  position: absolute; bottom: 0; left: 100px;
+  background: url(../img/among-us-dog.png) no-repeat center/contain;
+  animation: charAni linear infinite 5s;
 }
 .cat{
-  width: 50px; height: 50px;
-  background: url(../../public/img/among-us-cat.png) no-repeat 0 0;
+  width: 100px; height: 100px;
+  position: absolute; bottom: 0; right: 100px;
+  background: url(../img/among-us-cat.png) no-repeat center/contain;
+  animation: charAni linear infinite 5s;
+}
+@keyframes charAni {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
 }

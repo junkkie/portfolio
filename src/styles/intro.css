@@ -59,13 +59,22 @@
 .characters img{
   width: 200px;
 }
-.char1{position: absolute; left: 0; top: -50px; z-index: 1; opacity: 0; transition: all .5s ease-in 2.5s;}
-.char2{position: absolute; left: 130px; top: 0px; z-index: 2; opacity: 0; transition: all .5s ease-in 2.8s;}
-.char3{position: absolute; left: 240px; top: -50px; z-index: 1; opacity: 0; transition: all .5s ease-in 2.5s;}
+.char1{position: absolute; left: 0; top: 0px; z-index: 1; opacity: 0; transition: opacity .3s ease-in 2.5s;}
+.char2{position: absolute; left: 130px; top: 60px; z-index: 2; opacity: 0; transition: opacity .3s ease-in 2.8s; animation: purpleAni ease 3s infinite .5s;}
+.char3{position: absolute; left: 240px; top: 0px; z-index: 1; opacity: 0; transition: opacity .3s ease-in 2.5s;}
 
-.char1.on{top: 0; opacity: 1;}
-.char2.on{top: 60px; opacity: 1;}
-.char3.on{top: 0; opacity: 1;}
+.char1.on{opacity: 1;}
+.char2.on{opacity: 1;}
+.char3.on{opacity: 1;}
+
+@keyframes purpleAni {
+  0%{top: 60px;}
+  20%{top: 50px;}
+  30%{top: 60px;}
+  40%{top: 60px;}
+  80%{top: 40px;}
+  100%{top: 60px;}
+}
 
 .downbutton{
   display: flex;

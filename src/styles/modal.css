@@ -1,0 +1,43 @@
+.modal{
+  z-index: 100;
+  width: 78vw; height: 80vh;
+  position: absolute; left: 50%;
+  transform: translateX(-50%);
+  background-color: #000;
+  border-radius: 10px;
+}
+.modal_inner{
+  position: absolute; left: 50%; top: 4%;
+  transform: translateX(-50%);
+  width: 96%; height: 92%;
+  border: 1px solid #eaeaea;
+}
+.modal_inner>h2{
+  font-size: 3vw;
+  text-align: center;
+}
+.modal_list{
+  position: absolute; left: 50%; top: 25%;
+  transform: translateX(-50%);
+}
+.modal_list>li{
+  font-size: 2vw;
+  line-height: 10vh;
+}
+.homeBtn{
+  position: absolute; bottom: 8%; left: 50%;
+  transform: translateX(-50%);
+  background-color: #3b3b3b;
+  padding: 3px;
+  border-radius: 5px;
+}
+.homeBtn>button{
+  background-color: transparent;
+  border: 1px solid #b2b2b2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'DOSGothic';
+  font-size: 1.2rem;
+  color: #eaeaea;
+  cursor: pointer;
+}
