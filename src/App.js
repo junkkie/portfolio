@@ -21,7 +21,7 @@ function App() {
       <span>SHHHHHHH!</span>
     </div>
     :
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path='/' element={<Main />} />
         <Route path='/' />
