@@ -1,0 +1,17 @@
+.skills{
+  width: 100vw; height: 100vh;
+}
+
+.skills img{
+  width: 100px;
+}
+
+.circle_L{
+ width: 80vw; height: 80vw;
+ border: 1px solid #eaeaea;
+ border-radius: 50%;
+}
+
+.circle_S{
+
+}

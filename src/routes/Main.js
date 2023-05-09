@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import '../styles/main.css'
 import Intro from '../components/Intro'
-import Skills from '../components/Skills'
+import Header from '../components/Header'
 
 const Main = () => {
   //배경 애니메이션
@@ -183,9 +183,10 @@ const Main = () => {
   <>
     <Intro />
 
-    <canvas id='canv'></canvas>
+    <canvas id='canv'>  </canvas>
 
     <div className='main'>
+      <Header />
       <h2>Who am I</h2>
       <div className='info'>
         <img className='profile_img' src='img/profile.png' alt='profile' />
@@ -208,12 +209,7 @@ const Main = () => {
       <div className='dog'></div>
       <div className='cat'></div>
     </div>
-
-    <Skills /> 
-
-      
   </>
-
   )
 }
 

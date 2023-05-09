@@ -9,10 +9,20 @@
   position: absolute;
   margin: 0;
   overflow: hidden;
+  z-index: -100;
 }
 .main{
   position: absolute;
   width: 100vw; height: auto;
   color: #eaeaea;
   font-family: 'DungGeunMo';
+}
+
+.dog{
+  width: 50px; height: 50px;
+  background: url(../../public/img/among-us-dog.png) no-repeat 0 0;
+}
+.cat{
+  width: 50px; height: 50px;
+  background: url(../../public/img/among-us-cat.png) no-repeat 0 0;
 }
