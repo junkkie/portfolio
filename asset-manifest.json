@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio_2023/static/css/main.dd8852ee.css",
-    "main.js": "/portfolio_2023/static/js/main.dc9f5e04.js",
+    "main.css": "/portfolio_2023/static/css/main.8bc70c13.css",
+    "main.js": "/portfolio_2023/static/js/main.679e21bb.js",
     "static/media/among-us-cat.png": "/portfolio_2023/static/media/among-us-cat.f12c8b666d8f5f465e49.png",
     "static/media/among-us-dog.png": "/portfolio_2023/static/media/among-us-dog.6c5e6dd9ab722f9fd4c6.png",
+    "static/media/among-us-pink.png": "/portfolio_2023/static/media/among-us-pink.e9c67b55dc95f6174d0c.png",
+    "static/media/among-us-mint.png": "/portfolio_2023/static/media/among-us-mint.aed5e80d7a593584e3f5.png",
+    "static/media/shhh.png": "/portfolio_2023/static/media/shhh.4ef95a6bbba70aec98d7.png",
+    "static/media/among-us-purple.png": "/portfolio_2023/static/media/among-us-purple.04b8329b009e8934b3bb.png",
+    "static/media/profile.png": "/portfolio_2023/static/media/profile.255de14c327f872fb93e.png",
     "index.html": "/portfolio_2023/index.html",
-    "main.dd8852ee.css.map": "/portfolio_2023/static/css/main.dd8852ee.css.map",
-    "main.dc9f5e04.js.map": "/portfolio_2023/static/js/main.dc9f5e04.js.map"
+    "main.8bc70c13.css.map": "/portfolio_2023/static/css/main.8bc70c13.css.map",
+    "main.679e21bb.js.map": "/portfolio_2023/static/js/main.679e21bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd8852ee.css",
-    "static/js/main.dc9f5e04.js"
+    "static/css/main.8bc70c13.css",
+    "static/js/main.679e21bb.js"
   ]
 }
