@@ -11,8 +11,6 @@ function App() {
 
 
   return (
-    <>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         {loading ?
         <Route path='/' element={<Loading setLoading={setLoading} />} />
@@ -22,8 +20,6 @@ function App() {
         <Route path='/projects' element={<Projects />} />
         <Route path='/outtro' element={<Outtro />} />
       </Routes>
-    </BrowserRouter>
-    </>
 
   );
 }
