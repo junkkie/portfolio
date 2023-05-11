@@ -1,0 +1,83 @@
+.outtro{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.out_title{
+  text-align: center;
+}
+.out_title>h2{
+  display: inline-block;
+  color: #fff;
+  font-size: 3vw;
+  font-family: 'DungGeunMo';
+  margin: 0 3vw;
+  padding-top: 20vh;
+}
+.spaceship{
+  position: relative; top: 0.5vw;
+  display: inline-block;
+  width: 5vw; height: 3vw;
+  transform: rotate(-30deg);
+}
+.char{
+  position: absolute; left: 0; top: 50%;
+  transform: translateY(-50%);
+  width: 20vw; height: 20vw;
+  animation: char linear 8s;
+  opacity: 0;
+}
+@keyframes char {
+  0%{opacity: 0;}
+  0.001%{transform: rotate(0deg); left: 0; opacity: 1;}
+  25%{transform: rotate(360deg); left: 30vw;}
+  50%{transform: rotate(720deg); left: 60vw;}
+  75%{transform: rotate(1080deg); left: 90vw;}
+  100%{transform: rotate(1440deg); left: 120vw; opacity: 1;}
+}
+
+.contact{
+  text-align: center;
+  margin-top: 10vh;
+}
+.contact>.list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.list span{
+  color: #fff;
+  font-family: 'DungGeunMo';
+  font-size: 2vw;
+  margin-top: 5vh;
+}
+.list span:nth-of-type(even){
+  color: #aaa;
+  margin-top: 0.3vw;
+}
+.list>span>a{
+  text-decoration: none;
+  color: #fff;
+}
+.list>span:last-of-type{
+  font-size: 0.8vw;
+  margin-top: 0;
+}
+
+.homeBtn{
+  position: absolute; bottom: 8%; left: 50%;
+  transform: translateX(-50%);
+  background-color: #3b3b3b;
+  padding: 3px;
+  border-radius: 5px;
+}
+.homeBtn button{
+  background-color: transparent;
+  border: 1px solid #b2b2b2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'DungGeunMo';
+  font-size: 1.2rem;
+  color: #eaeaea;
+  cursor: pointer;
+}

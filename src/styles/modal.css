@@ -1,7 +1,7 @@
 .modal{
-  z-index: 100;
+  z-index: 1100;
   width: 78vw; height: 80vh;
-  position: absolute; left: 50%;
+  position: absolute; left: 50%; top: 12vh;
   transform: translateX(-50%);
   background-color: #000;
   border-radius: 10px;
@@ -15,15 +15,30 @@
 .modal_inner>h2{
   font-size: 3vw;
   text-align: center;
+  color: #fff;
 }
 .modal_list{
-  position: absolute; left: 50%; top: 25%;
+  position: absolute; left: calc(50% - 1vw); top: 25%;
   transform: translateX(-50%);
 }
 .modal_list>li{
   font-size: 2vw;
   line-height: 10vh;
+  list-style: none;
+  text-align: right;
+  text-align: center;
+  text-indent: 10vw;
+  padding-right: 1vw;
+  margin-bottom: 2vh;
+  border: 1px solid #eaeaea;
+  cursor: pointer;
 }
+.modal_list>li>a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.8vw;
+}
+
 .homeBtn{
   position: absolute; bottom: 8%; left: 50%;
   transform: translateX(-50%);
@@ -36,7 +51,7 @@
   border: 1px solid #b2b2b2;
   padding: 10px 20px;
   border-radius: 5px;
-  font-family: 'DOSGothic';
+  font-family: 'DungGeunMo';
   font-size: 1.2rem;
   color: #eaeaea;
   cursor: pointer;

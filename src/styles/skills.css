@@ -1,17 +1,106 @@
 .skills{
   width: 100vw; height: 100vh;
+  position: relative; bottom: -100vh;
+  font-family: 'DungGeunMo';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
-
-.skills img{
-  width: 100px;
+.skills>h2{
+  position: absolute;
+  color: #eaeaea;
+  font-size: 3vw;
 }
 
 .circle_L{
- width: 80vw; height: 80vw;
- border: 1px solid #eaeaea;
- border-radius: 50%;
+  position: absolute;
+  transform-origin: center/center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45vw; height: 45vw;
+  border: 1px solid #eaeaea;
+  border-radius: 50%;
+  animation: large linear 20s infinite;
+}
+@keyframes large {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+
+.circle_L img{
+  width: 3vw; height: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-origin: center/center;
+  animation: Limgs linear 20s infinite;
+}
+@keyframes Limgs {
+  0%{transform: rotate(360deg);}
+  100%{transform: rotate(0deg);}
+}
+
+.circle_L>img:nth-of-type(1){
+  position: relative; left: 63%; top: -25%;
+}
+.circle_L>img:nth-of-type(2){
+  position: relative; right: 37%;
+}
+.circle_L>img:nth-of-type(3){
+  position: relative; left: 46%; top: 30%;
+}
+.circle_L>img:nth-of-type(4){
+  position: relative; left: 5%; top: 50%;
+}
+.circle_L>img:nth-of-type(5){
+  position: relative; right: 47%; top: 30%;;
+}
+.circle_L>img:nth-of-type(6){
+  position: relative; bottom: 48%;
+}
+.circle_L>img:nth-of-type(7){
+  position: relative; right: 40%; bottom: 46%;
 }
 
 .circle_S{
+  position: absolute;
+  transform-origin: center/center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32vw; height: 32vw;
+  border: 1px solid #eaeaea;
+  border-radius: 50%;
+  animation: small linear 15s infinite;
+}
+@keyframes small {
+  0%{transform: rotate(360deg);}
+  100%{transform: rotate(0deg);}
+}
 
+.circle_S img{
+  width: 3vw; height: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-origin: center/center;
+  animation: Simgs linear 15s infinite;
+}
+.circle_S>img:nth-of-type(1){
+  position: relative; left: 63%; top: 10%;
+}
+.circle_S>img:nth-of-type(2){
+  position: relative; right: 25%; top: 40%;
+}
+.circle_S>img:nth-of-type(3){
+  position: relative; bottom: 27%; right: 47%;
+}
+.circle_S>img:nth-of-type(4){
+  position: relative; bottom: 47%;
+}
+@keyframes Simgs {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
 }

@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'DungGeunMo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.main{
+  position: absolute; top: 100vh;
+  width: 100vw; height: 100vh;
+  color: #eaeaea;
+  font-family: 'DungGeunMo';
+}
+.main>h2{
+  margin: 0;
+  margin-left: 300px;
+  margin-bottom: 50px;
+  font-size: 3vw;
+  padding-top: 5vh;
+}
+.info{
+  margin-left: 300px;
+}
+.profile_img{
+  margin-left: 3vw;
+  width: 12vw; height: 12vw;
+}
+.info>p:first-of-type{
+  position: absolute; left: 35vw; top: 10vw;
+  font-size: 1.5vw;
+  line-height: 50px;
+}
+.info>p:last-of-type{
+  position: absolute; left: 55vw; top: 10vw;
+  font-size: 1.5vw;
+  line-height: 35px;
+}
+.main_intro{
+  position: absolute; left: 0; top: 50vh;
+  margin-left: 300px;
+  font-size: 1.3vw;
+  line-height: 40px;
+}
+.main_intro>h3{
+  font-weight: 550;
+  letter-spacing: 2px;
+  text-shadow: 0px 10px 10px #9351d6, 0px 10px 20px #f052b1;
+}
+
+.dog{
+  width: 70px; height: 70px;
+  position: absolute; bottom: 50px; left: 100px;
+  background: url(../img/among-us-dog.png) no-repeat center/contain;
+  animation: charAni linear infinite 5s;
+}
+.cat{
+  width: 7vw; height: 7vw;
+  position: absolute; bottom: 50px; right: 100px;
+  background: url(../img/among-us-cat.png) no-repeat center/contain;
+  align-items: center;
+  animation: charAni linear infinite 5s;
+}
+@keyframes charAni {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+
+/* 애니메이션 추가 */

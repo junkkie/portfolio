@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/modal.css'
+import { Link } from 'react-router-dom';
 
 const Modal = ({setModalOpen}) => {
 
@@ -12,9 +13,8 @@ const Modal = ({setModalOpen}) => {
       <div className='modal_inner'>
         <h2>LIST</h2>
         <ul className='modal_list'>
-          <li>SKILLS</li>
-          <li>PROJECTS</li>
-          <li>CONTACT</li>
+          <li><Link to='/projects'>PROJECTS</Link></li>
+          <li><Link to='/outtro'>CONTACT</Link></li>
         </ul>
         <div className='homeBtn'>
           <button onClick={onBackBtn}>Click to home</button>
