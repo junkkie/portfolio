@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import SHH from './img/shhh.png'
+import SHH from '../img/shhh.png'
 
 const Loading = ({setLoading}) => {
 
