@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d67570a0.css",
-    "main.js": "/portfolio/static/js/main.c23b8ea6.js",
+    "main.css": "/portfolio/static/css/main.dc73665f.css",
+    "main.js": "/portfolio/static/js/main.a0390849.js",
     "static/media/netflix.png": "/portfolio/static/media/netflix.c08b072741d40a3c7987.png",
     "static/media/among-us-cat.png": "/portfolio/static/media/among-us-cat.f12c8b666d8f5f465e49.png",
     "static/media/firebase.png": "/portfolio/static/media/firebase.5aa7cf22cd45ec6bbec2.png",
@@ -14,7 +14,6 @@
     "static/media/among-us-spaceship.png": "/portfolio/static/media/among-us-spaceship.1d4cab77aa9f15a3ec58.png",
     "static/media/samsung.png": "/portfolio/static/media/samsung.3d421959a282c85d2b6a.png",
     "static/media/react.png": "/portfolio/static/media/react.65ca18b4e9841f85a691.png",
-    "static/media/shhh.png": "/portfolio/static/media/shhh.4ef95a6bbba70aec98d7.png",
     "static/media/sass.png": "/portfolio/static/media/sass.58e61bc991e55a95072b.png",
     "static/media/outtro_char.png": "/portfolio/static/media/outtro_char.3db6ac7b31581b7c9a29.png",
     "static/media/among-us-purple.png": "/portfolio/static/media/among-us-purple.04b8329b009e8934b3bb.png",
@@ -27,11 +26,11 @@
     "static/media/illustrator.png": "/portfolio/static/media/illustrator.c8306d9279929e8b8cfe.png",
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
-    "main.d67570a0.css.map": "/portfolio/static/css/main.d67570a0.css.map",
-    "main.c23b8ea6.js.map": "/portfolio/static/js/main.c23b8ea6.js.map"
+    "main.dc73665f.css.map": "/portfolio/static/css/main.dc73665f.css.map",
+    "main.a0390849.js.map": "/portfolio/static/js/main.a0390849.js.map"
   },
   "entrypoints": [
-    "static/css/main.d67570a0.css",
-    "static/js/main.c23b8ea6.js"
+    "static/css/main.dc73665f.css",
+    "static/js/main.a0390849.js"
   ]
 }
