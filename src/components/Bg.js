@@ -178,7 +178,13 @@ const Bg = () => {
   },[])
 
   return (
-    <canvas id='canv'></canvas>
+    <div>
+      <canvas id='canv'></canvas>
+      <canvas id='canv'></canvas>
+      <canvas id='canv'></canvas>
+      <canvas id='canv'></canvas>
+    </div>
+
   )
 }
 
