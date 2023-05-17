@@ -1,6 +1,6 @@
 .skills{
   width: 100vw; height: 100vh;
-  position: relative; bottom: -100vh;
+  position: relative;
   font-family: 'DungGeunMo';
   display: flex;
   justify-content: center;
@@ -103,4 +103,11 @@
 @keyframes Simgs {
   0%{transform: rotate(0deg);}
   100%{transform: rotate(360deg);}
+}
+.tab{
+  position: relative; top: 100px;
+}
+.tab>img{
+  width: 150px;
+  cursor: pointer;
 }

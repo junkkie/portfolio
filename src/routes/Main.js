@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, } from 'react'
 import '../styles/main.css'
 import Intro from '../components/Intro'
 import Skills from './../components/Skills';
 import Bg from '../components/Bg'
 import Home from '../components/Home';
+import Contact from 'components/Contact';
 
 const Main = () => {
   const [loading, setLoading] = useState(true);
@@ -14,13 +15,21 @@ const Main = () => {
       root.style.setProperty(`--window-width`, window.screen.width + 'px');
     });
 
+    window.addEventListener("scroll", () => {
+      let scll = window.scrollY;
+      console.log(scll);
+    })
+
+
     setTimeout(() => {
       setLoading(false);
       const body = document.querySelector(".body")
-      body.classList.add("off")
-    }, 5000)
+      body.classList.add("on")
+    }, 3000)
+    
     
   },[])
+
   
   return (
   <>
@@ -28,14 +37,29 @@ const Main = () => {
     <div className='body'>
       <div className="rainbow"></div>
       <div className="nyan"></div>
-      <div class="loading"></div>
+      <p className='loading'>loading</p>
+      <div id="hourglass">
+        <div class="outline"></div>
+        <div class="fill"></div>
+        <div class="curtain"></div>
+        <div class="curtain"></div>
+        <div class="sand-fall"></div>
+        <div class="sand-fall"></div>
+        <div class="sand"></div>
+      </div>
     </div>
     :
     <>
-      <Intro />
-      <Bg />
-      <Home />
-      <Skills />
+      <div className='background'>
+        <Bg />
+      </div>
+
+      <div className='main'>
+        <Intro />
+        <Home />
+        <Skills />
+        <Contact />
+      </div>
     </>
     }
   </>

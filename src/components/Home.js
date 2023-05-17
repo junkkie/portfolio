@@ -6,7 +6,7 @@ import '../styles/home.css'
 const Home = () => {
 
   return (
-    <div className='main'>
+    <div className='home'>
     <Header />
     <h2>Who am I</h2>
     <div className='info'>
@@ -28,8 +28,13 @@ const Home = () => {
         그 안에서 작고 사소한 존재로서 시작하여 무궁한 발전을 향해 유영하고 있습니다.
       </p>
     </div>
-    <div className='dog'></div>
-    <div className='cat'></div>
+    <div className='dinosaur'>
+      <div class='dino'></div>
+      <div class='eye'></div>
+      <div class='mouth'></div>
+      <div class='ground'></div>
+      <div class='comets'></div>
+    </div>
   </div>
   )
 }

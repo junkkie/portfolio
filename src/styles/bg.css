@@ -1,10 +1,5 @@
-.bg{
-  position: relative;
-  width: 100vw; height: 400vh;
-}
 #canv{
   position: relative;
-  width: 100vw; height: 100vh;
   margin: 0;
   overflow: hidden;
   z-index: -10;

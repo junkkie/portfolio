@@ -33,20 +33,22 @@
   width: 80vw;
 }
 
-.intro>h1{
+
+h1{
+  width: 100vw;
+  padding-top: 50px;
   text-align: center;
-  margin-top: 150px;
+  color: #fff;
   opacity: 0;
   letter-spacing: 3px;
   font-size: 3vw;
+  display: inline-block;
   text-shadow: 0px 10px 10px #9351d6, 0px 10px 20px #f052b1;
   transition: all .5s ease-in .5s;
 }
-.intro>h1.on{
-  margin-top: 100px;
+h1.on{
   opacity: 1;
 }
-
 
 .characters{
   z-index: 10;

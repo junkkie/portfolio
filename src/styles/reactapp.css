@@ -1,0 +1,63 @@
+.react_bg{
+  width: 100vw; height: 200vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.react_app{
+  position: absolute; top: 0;
+  color: #fff;
+  font-family: 'DungGeunMo';
+}
+.react_app>h3{
+  font-size: 50px;
+  margin-left: 100px;
+}
+.react_app>ul{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.react_app>ul>li{
+  list-style: none;
+  font-size: 40px;
+  position: relative;
+  margin-bottom: 200px;
+}
+.react_app>ul>li>h4{
+  display: inline-block;
+}
+
+.tools{
+  display: inline-block;
+  margin-left: 20px;
+}
+.tools img{
+  margin-bottom: -10px;
+  width: 50px; height: 50px;
+}
+
+.pj_info>ul>li{
+  list-style: none;
+  font-size: 25px;
+  line-height: 60px;
+}
+
+
+.pj_viewer{
+  position: absolute; top: 150px;
+  float: right;
+}
+.pj_viewer .logo_img{
+  z-index: -1;
+  position: absolute; top: -80px; left: -150px;
+  opacity: 0.7;
+}
+.pj_viewer>video{
+  position: absolute; left: 0; top: 6px;
+  z-index: 10;
+}
+
+.pj_viewer .pc_mockup{
+  position: absolute;
+}

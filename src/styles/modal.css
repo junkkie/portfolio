@@ -12,32 +12,45 @@
   width: 96%; height: 92%;
   border: 1px solid #eaeaea;
 }
-.modal_inner>h2{
+.projects{
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  color: #fff;
+  font-family: 'DungGeunMo';
+}
+.projects>h2{
   font-size: 3vw;
+  margin: 0;
+  padding-top: 10vh;
   text-align: center;
-  color: #fff;
 }
-.modal_list{
-  position: absolute; left: calc(50% - 1vw); top: 25%;
+.projects>ul{
+  position: absolute; left: 50%; top: 20vh;
   transform: translateX(-50%);
+  display: flex;
 }
-.modal_list>li{
-  font-size: 2vw;
-  line-height: 10vh;
+.projects>ul>li{
   list-style: none;
-  text-align: right;
-  text-align: center;
-  text-indent: 10vw;
-  padding-right: 1vw;
-  margin-bottom: 2vh;
-  border: 1px solid #eaeaea;
-  cursor: pointer;
 }
-.modal_list>li>a{
-  color: #fff;
+
+.projects>ul>li>a{
+  display: block;
+  width: 22vw;
   text-decoration: none;
-  font-size: 1.8vw;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+.projects>ul>li>a>img{
+ width: 7vw; height: 9vw;
+}
+.projects>ul>li>a>span{
+  font-size: 1.5vw;
+}
+
 
 .homeBtn{
   position: absolute; bottom: 8%; left: 50%;
@@ -46,7 +59,7 @@
   padding: 3px;
   border-radius: 5px;
 }
-.homeBtn>button{
+.homeBtn button{
   background-color: transparent;
   border: 1px solid #b2b2b2;
   padding: 10px 20px;
