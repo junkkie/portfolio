@@ -1,0 +1,281 @@
+@font-face {
+  font-family: 'DungGeunMo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.home{
+  position: relative;
+  width: 100vw; height: 100vh;
+  color: #eaeaea;
+  font-family: 'DungGeunMo';
+}
+.home>h2{
+  margin: 0;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  font-size: 3vw;
+  padding-top: 5vh;
+}
+.info{
+  margin-left: 200px;
+}
+.profile_img{
+  margin-left: 3vw;
+  width: 12vw; height: 12vw;
+}
+.info>p:first-of-type{
+  position: absolute; left: 30vw; top: 10vw;
+  font-size: 1.5vw;
+  line-height: 50px;
+}
+.info>p:first-of-type>span:nth-of-type(3)>a{
+  color: #fff;
+  text-decoration: none;
+}
+.info>p:first-of-type>span:nth-of-type(4){
+  display: block;
+  margin-left: 5px;
+  margin-top: -20px;
+  font-size: 15px;
+}
+.info>p:last-of-type{
+  position: absolute; left: 55vw; top: 10vw;
+  font-size: 1.5vw;
+  line-height: 35px;
+}
+.main_intro{
+  position: absolute; left: 0; top: 50vh;
+  margin-left: 300px;
+  font-size: 1.3vw;
+  line-height: 40px;
+}
+.main_intro>h3{
+  font-weight: 550;
+  letter-spacing: 2px;
+  text-shadow: 0px 10px 10px #9351d6, 0px 10px 20px #f052b1;
+}
+
+@-webkit-keyframes eye {
+  0% {
+    box-shadow:  3em -9em #eaeaea;
+  }
+  5% {
+    box-shadow: 0 0 0 0 #eaeaea;
+  }
+  50% {
+    box-shadow:  0em 0em #eaeaea;
+  }
+}
+@-moz-keyframes eye {
+  0% {
+    box-shadow:  3em -9em #eaeaea;
+  }
+  5% {
+    box-shadow: 0 0 0 0 #eaeaea;
+  }
+  50% {
+    box-shadow:  0em 0em #eaeaea;
+  }
+}
+@keyframes eye {
+  0% {
+    box-shadow:  3em -9em #eaeaea;
+  }
+  5% {
+    box-shadow: 0 0 0 0 #eaeaea;
+  }
+  50% {
+    box-shadow:  0em 0em #eaeaea;
+  }
+}
+@-webkit-keyframes mouth {
+  0% {
+    box-shadow:  6em -4em #eaeaea , 7em -4em #eaeaea , 8em -4em #eaeaea;
+  }
+  50% {
+    box-shadow:  5em -3em #eaeaea , 6em -3em #eaeaea , 7em -3em #eaeaea , 8em -3em #eaeaea;
+  }
+}
+@-moz-keyframes mouth {
+  0% {
+    box-shadow:  6em -4em #eaeaea , 7em -4em #eaeaea , 8em -4em #eaeaea;
+  }
+  50% {
+    box-shadow:  5em -3em #eaeaea , 6em -3em #eaeaea , 7em -3em #eaeaea , 8em -3em #eaeaea;
+  }
+}
+@keyframes mouth {
+  0% {
+    box-shadow:  6em -4em #eaeaea , 7em -4em #eaeaea , 8em -4em #eaeaea;
+  }
+  50% {
+    box-shadow:  5em -3em #eaeaea , 6em -3em #eaeaea , 7em -3em #eaeaea , 8em -3em #eaeaea;
+  }
+}
+@-webkit-keyframes comets {
+  0% {
+    box-shadow:  -23em -23em #eaeaea,  -20em -20em #eaeaea,  -18em -18em #eaeaea,  -17em -17em #eaeaea,  -16em -16em #eaeaea,  -15em -15em #eaeaea,  -13em -14em #eaeaea , -12em -14em #eaeaea , -11em -14em #eaeaea,  -14em -13em #eaeaea , -13em -13em #eaeaea , -12em -13em #eaeaea , -11em -13em #eaeaea , -10em -13em #eaeaea,  -14em -12em #eaeaea , -13em -12em #eaeaea , -11em -12em #eaeaea , -10em -12em #eaeaea,  -14em -11em #eaeaea , -13em -11em #eaeaea , -12em -11em #eaeaea , -11em -11em #eaeaea , -10em -11em #eaeaea,  -13em -10em #eaeaea , -12em -10em #eaeaea , -11em -10em #eaeaea,  -9em -19em #eaeaea,  -8em -18em #eaeaea,  -7em -17em #eaeaea,  -6em -16em #eaeaea , -5em -16em #eaeaea,  -6em -15em #eaeaea , -5em -15em #eaeaea;
+  }
+  33% {
+    box-shadow:  -24em -24em #eaeaea,  -21em -21em #eaeaea,  -18em -18em #eaeaea,  -17em -17em #eaeaea,  -16em -16em #eaeaea,  -15em -15em #eaeaea,  -13em -14em #eaeaea , -12em -14em #eaeaea , -11em -14em #eaeaea,  -14em -13em #eaeaea , -13em -13em #eaeaea , -12em -13em #eaeaea , -11em -13em #eaeaea , -10em -13em #eaeaea,  -14em -12em #eaeaea , -13em -12em #eaeaea , -11em -12em #eaeaea , -10em -12em #eaeaea,  -14em -11em #eaeaea , -13em -11em #eaeaea , -12em -11em #eaeaea , -11em -11em #eaeaea , -10em -11em #eaeaea,  -13em -10em #eaeaea , -12em -10em #eaeaea , -11em -10em #eaeaea,  -10em -20em #eaeaea,  -9em -19em #eaeaea,  -8em -18em #eaeaea,  -7em -17em #eaeaea,  -6em -16em #eaeaea , -5em -16em #eaeaea,  -6em -15em #eaeaea , -5em -15em #eaeaea;
+  }
+  66% {
+    box-shadow:  -26em -26em #eaeaea,  -22em -22em #eaeaea,  -18em -18em #eaeaea,  -17em -17em #eaeaea,  -16em -16em #eaeaea,  -15em -15em #eaeaea,  -13em -14em #eaeaea , -12em -14em #eaeaea , -11em -14em #eaeaea,  -14em -13em #eaeaea , -13em -13em #eaeaea , -12em -13em #eaeaea , -11em -13em #eaeaea , -10em -13em #eaeaea,  -14em -12em #eaeaea , -13em -12em #eaeaea , -11em -12em #eaeaea , -10em -12em #eaeaea,  -14em -11em #eaeaea , -13em -11em #eaeaea , -12em -11em #eaeaea , -11em -11em #eaeaea , -10em -11em #eaeaea,  -13em -10em #eaeaea , -12em -10em #eaeaea , -11em -10em #eaeaea,  -11em -21em #eaeaea,  -9em -19em #eaeaea,  -8em -18em #eaeaea,  -7em -17em #eaeaea,  -6em -16em #eaeaea , -5em -16em #eaeaea,  -6em -15em #eaeaea , -5em -15em #eaeaea;
+  }
+}
+@-moz-keyframes comets {
+  0% {
+    box-shadow:  -23em -23em #eaeaea,  -20em -20em #eaeaea,  -18em -18em #eaeaea,  -17em -17em #eaeaea,  -16em -16em #eaeaea,  -15em -15em #eaeaea,  -13em -14em #eaeaea , -12em -14em #eaeaea , -11em -14em #eaeaea,  -14em -13em #eaeaea , -13em -13em #eaeaea , -12em -13em #eaeaea , -11em -13em #eaeaea , -10em -13em #eaeaea,  -14em -12em #eaeaea , -13em -12em #eaeaea , -11em -12em #eaeaea , -10em -12em #eaeaea,  -14em -11em #eaeaea , -13em -11em #eaeaea , -12em -11em #eaeaea , -11em -11em #eaeaea , -10em -11em #eaeaea,  -13em -10em #eaeaea , -12em -10em #eaeaea , -11em -10em #eaeaea,  -9em -19em #eaeaea,  -8em -18em #eaeaea,  -7em -17em #eaeaea,  -6em -16em #eaeaea , -5em -16em #eaeaea,  -6em -15em #eaeaea , -5em -15em #eaeaea;
+  }
+  33% {
+    box-shadow:  -24em -24em #eaeaea,  -21em -21em #eaeaea,  -18em -18em #eaeaea,  -17em -17em #eaeaea,  -16em -16em #eaeaea,  -15em -15em #eaeaea,  -13em -14em #eaeaea , -12em -14em #eaeaea , -11em -14em #eaeaea,  -14em -13em #eaeaea , -13em -13em #eaeaea , -12em -13em #eaeaea , -11em -13em #eaeaea , -10em -13em #eaeaea,  -14em -12em #eaeaea , -13em -12em #eaeaea , -11em -12em #eaeaea , -10em -12em #eaeaea,  -14em -11em #eaeaea , -13em -11em #eaeaea , -12em -11em #eaeaea , -11em -11em #eaeaea , -10em -11em #eaeaea,  -13em -10em #eaeaea , -12em -10em #eaeaea , -11em -10em #eaeaea,  -10em -20em #eaeaea,  -9em -19em #eaeaea,  -8em -18em #eaeaea,  -7em -17em #eaeaea,  -6em -16em #eaeaea , -5em -16em #eaeaea,  -6em -15em #eaeaea , -5em -15em #eaeaea;
+  }
+  66% {
+    box-shadow:  -26em -26em #eaeaea,  -22em -22em #eaeaea,  -18em -18em #eaeaea,  -17em -17em #eaeaea,  -16em -16em #eaeaea,  -15em -15em #eaeaea,  -13em -14em #eaeaea , -12em -14em #eaeaea , -11em -14em #eaeaea,  -14em -13em #eaeaea , -13em -13em #eaeaea , -12em -13em #eaeaea , -11em -13em #eaeaea , -10em -13em #eaeaea,  -14em -12em #eaeaea , -13em -12em #eaeaea , -11em -12em #eaeaea , -10em -12em #eaeaea,  -14em -11em #eaeaea , -13em -11em #eaeaea , -12em -11em #eaeaea , -11em -11em #eaeaea , -10em -11em #eaeaea,  -13em -10em #eaeaea , -12em -10em #eaeaea , -11em -10em #eaeaea,  -11em -21em #eaeaea,  -9em -19em #eaeaea,  -8em -18em #eaeaea,  -7em -17em #eaeaea,  -6em -16em #eaeaea , -5em -16em #eaeaea,  -6em -15em #eaeaea , -5em -15em #eaeaea;
+  }
+}
+@keyframes comets {
+  0% {
+    box-shadow:  -23em -23em #eaeaea,  -20em -20em #eaeaea,  -18em -18em #eaeaea,  -17em -17em #eaeaea,  -16em -16em #eaeaea,  -15em -15em #eaeaea,  -13em -14em #eaeaea , -12em -14em #eaeaea , -11em -14em #eaeaea,  -14em -13em #eaeaea , -13em -13em #eaeaea , -12em -13em #eaeaea , -11em -13em #eaeaea , -10em -13em #eaeaea,  -14em -12em #eaeaea , -13em -12em #eaeaea , -11em -12em #eaeaea , -10em -12em #eaeaea,  -14em -11em #eaeaea , -13em -11em #eaeaea , -12em -11em #eaeaea , -11em -11em #eaeaea , -10em -11em #eaeaea,  -13em -10em #eaeaea , -12em -10em #eaeaea , -11em -10em #eaeaea,  -9em -19em #eaeaea,  -8em -18em #eaeaea,  -7em -17em #eaeaea,  -6em -16em #eaeaea , -5em -16em #eaeaea,  -6em -15em #eaeaea , -5em -15em #eaeaea;
+  }
+  33% {
+    box-shadow:  -24em -24em #eaeaea,  -21em -21em #eaeaea,  -18em -18em #eaeaea,  -17em -17em #eaeaea,  -16em -16em #eaeaea,  -15em -15em #eaeaea,  -13em -14em #eaeaea , -12em -14em #eaeaea , -11em -14em #eaeaea,  -14em -13em #eaeaea , -13em -13em #eaeaea , -12em -13em #eaeaea , -11em -13em #eaeaea , -10em -13em #eaeaea,  -14em -12em #eaeaea , -13em -12em #eaeaea , -11em -12em #eaeaea , -10em -12em #eaeaea,  -14em -11em #eaeaea , -13em -11em #eaeaea , -12em -11em #eaeaea , -11em -11em #eaeaea , -10em -11em #eaeaea,  -13em -10em #eaeaea , -12em -10em #eaeaea , -11em -10em #eaeaea,  -10em -20em #eaeaea,  -9em -19em #eaeaea,  -8em -18em #eaeaea,  -7em -17em #eaeaea,  -6em -16em #eaeaea , -5em -16em #eaeaea,  -6em -15em #eaeaea , -5em -15em #eaeaea;
+  }
+  66% {
+    box-shadow:  -26em -26em #eaeaea,  -22em -22em #eaeaea,  -18em -18em #eaeaea,  -17em -17em #eaeaea,  -16em -16em #eaeaea,  -15em -15em #eaeaea,  -13em -14em #eaeaea , -12em -14em #eaeaea , -11em -14em #eaeaea,  -14em -13em #eaeaea , -13em -13em #eaeaea , -12em -13em #eaeaea , -11em -13em #eaeaea , -10em -13em #eaeaea,  -14em -12em #eaeaea , -13em -12em #eaeaea , -11em -12em #eaeaea , -10em -12em #eaeaea,  -14em -11em #eaeaea , -13em -11em #eaeaea , -12em -11em #eaeaea , -11em -11em #eaeaea , -10em -11em #eaeaea,  -13em -10em #eaeaea , -12em -10em #eaeaea , -11em -10em #eaeaea,  -11em -21em #eaeaea,  -9em -19em #eaeaea,  -8em -18em #eaeaea,  -7em -17em #eaeaea,  -6em -16em #eaeaea , -5em -16em #eaeaea,  -6em -15em #eaeaea , -5em -15em #eaeaea;
+  }
+}
+@-webkit-keyframes ground {
+  0% {
+    box-shadow:  -12em 6em #eaeaea , -11em 6em #eaeaea , -10em 6em #eaeaea , -9em 6em #eaeaea , -8em 6em #eaeaea , -7em 6em #eaeaea , -6em 6em #eaeaea , 4em 6em #eaeaea , 5em 6em #eaeaea , 6em 6em #eaeaea , 7em 6em #eaeaea , 8em 6em #eaeaea , 9em 6em #eaeaea , 10em 6em #eaeaea , 11em 6em #eaeaea , 12em 6em #eaeaea,  8em 8em #eaeaea , 9em 8em #eaeaea , 10em 8em #eaeaea,  -7em 9em #eaeaea , -6em 9em #eaeaea,  6em 10em #eaeaea , 7em 10em #eaeaea,  -10em 11em #eaeaea , -9em 11em #eaeaea;
+  }
+  15% {
+    box-shadow:  -12em 6em #eaeaea , -11em 6em #eaeaea , -10em 6em #eaeaea , -9em 6em #eaeaea , -8em 6em #eaeaea , -7em 6em #eaeaea , -6em 6em #eaeaea , 4em 6em #eaeaea , 5em 6em #eaeaea , 6em 6em #eaeaea , 7em 6em #eaeaea , 8em 6em #eaeaea , 9em 6em #eaeaea , 10em 6em #eaeaea , 11em 6em #eaeaea , 12em 6em #eaeaea,  4em 8em #eaeaea , 5em 8em #eaeaea , 6em 8em #eaeaea,  -12em 9em #eaeaea , -11em 9em #eaeaea,  2em 10em #eaeaea , 3em 10em #eaeaea,  10em 11em #eaeaea , 11em 11em #eaeaea;
+  }
+  30% {
+    box-shadow:  -12em 6em #eaeaea , -11em 6em #eaeaea , -10em 6em #eaeaea , -9em 6em #eaeaea , -8em 6em #eaeaea , -7em 6em #eaeaea , -6em 6em #eaeaea , 4em 6em #eaeaea , 5em 6em #eaeaea , 6em 6em #eaeaea , 7em 6em #eaeaea , 8em 6em #eaeaea , 9em 6em #eaeaea , 10em 6em #eaeaea , 11em 6em #eaeaea , 12em 6em #eaeaea,  0em 8em #eaeaea , 1em 8em #eaeaea , 2em 8em #eaeaea,  8em 9em #eaeaea , 9em 9em #eaeaea,  -2em 10em #eaeaea , -1em 10em #eaeaea,  6em 11em #eaeaea , 7em 11em #eaeaea;
+  }
+  45% {
+    box-shadow:  -12em 6em #eaeaea , -11em 6em #eaeaea , -10em 6em #eaeaea , -9em 6em #eaeaea , -8em 6em #eaeaea , -7em 6em #eaeaea , -6em 6em #eaeaea , 4em 6em #eaeaea , 5em 6em #eaeaea , 6em 6em #eaeaea , 7em 6em #eaeaea , 8em 6em #eaeaea , 9em 6em #eaeaea , 10em 6em #eaeaea , 11em 6em #eaeaea , 12em 6em #eaeaea,  -4em 8em #eaeaea , -3em 8em #eaeaea , -2em 8em #eaeaea,  4em 9em #eaeaea , 5em 9em #eaeaea,  -6em 10em #eaeaea , -5em 10em #eaeaea,  2em 11em #eaeaea , 3em 11em #eaeaea;
+  }
+  60% {
+    box-shadow:  -12em 6em #eaeaea , -11em 6em #eaeaea , -10em 6em #eaeaea , -9em 6em #eaeaea , -8em 6em #eaeaea , -7em 6em #eaeaea , -6em 6em #eaeaea , 4em 6em #eaeaea , 5em 6em #eaeaea , 6em 6em #eaeaea , 7em 6em #eaeaea , 8em 6em #eaeaea , 9em 6em #eaeaea , 10em 6em #eaeaea , 11em 6em #eaeaea , 12em 6em #eaeaea,  -8em 8em #eaeaea , -7em 8em #eaeaea , -6em 8em #eaeaea,  0em 9em #eaeaea , 1em 9em #eaeaea,  -10em 10em #eaeaea , -9em 10em #eaeaea,  -2em 11em #eaeaea , -1em 11em #eaeaea;
+  }
+  75% {
+    box-shadow:  -12em 6em #eaeaea , -11em 6em #eaeaea , -10em 6em #eaeaea , -9em 6em #eaeaea , -8em 6em #eaeaea , -7em 6em #eaeaea , -6em 6em #eaeaea , 4em 6em #eaeaea , 5em 6em #eaeaea , 6em 6em #eaeaea , 7em 6em #eaeaea , 8em 6em #eaeaea , 9em 6em #eaeaea , 10em 6em #eaeaea , 11em 6em #eaeaea , 12em 6em #eaeaea,  -12em 8em #eaeaea , -11em 8em #eaeaea , -10em 8em #eaeaea,  -4em 9em #eaeaea , -3em 9em #eaeaea,  10em 10em #eaeaea , 11em 10em #eaeaea,  -6em 11em #eaeaea , -5em 11em #eaeaea;
+  }
+}
+@-moz-keyframes ground {
+  0% {
+    box-shadow:  -12em 6em #eaeaea , -11em 6em #eaeaea , -10em 6em #eaeaea , -9em 6em #eaeaea , -8em 6em #eaeaea , -7em 6em #eaeaea , -6em 6em #eaeaea , 4em 6em #eaeaea , 5em 6em #eaeaea , 6em 6em #eaeaea , 7em 6em #eaeaea , 8em 6em #eaeaea , 9em 6em #eaeaea , 10em 6em #eaeaea , 11em 6em #eaeaea , 12em 6em #eaeaea,  8em 8em #eaeaea , 9em 8em #eaeaea , 10em 8em #eaeaea,  -7em 9em #eaeaea , -6em 9em #eaeaea,  6em 10em #eaeaea , 7em 10em #eaeaea,  -10em 11em #eaeaea , -9em 11em #eaeaea;
+  }
+  15% {
+    box-shadow:  -12em 6em #eaeaea , -11em 6em #eaeaea , -10em 6em #eaeaea , -9em 6em #eaeaea , -8em 6em #eaeaea , -7em 6em #eaeaea , -6em 6em #eaeaea , 4em 6em #eaeaea , 5em 6em #eaeaea , 6em 6em #eaeaea , 7em 6em #eaeaea , 8em 6em #eaeaea , 9em 6em #eaeaea , 10em 6em #eaeaea , 11em 6em #eaeaea , 12em 6em #eaeaea,  4em 8em #eaeaea , 5em 8em #eaeaea , 6em 8em #eaeaea,  -12em 9em #eaeaea , -11em 9em #eaeaea,  2em 10em #eaeaea , 3em 10em #eaeaea,  10em 11em #eaeaea , 11em 11em #eaeaea;
+  }
+  30% {
+    box-shadow:  -12em 6em #eaeaea , -11em 6em #eaeaea , -10em 6em #eaeaea , -9em 6em #eaeaea , -8em 6em #eaeaea , -7em 6em #eaeaea , -6em 6em #eaeaea , 4em 6em #eaeaea , 5em 6em #eaeaea , 6em 6em #eaeaea , 7em 6em #eaeaea , 8em 6em #eaeaea , 9em 6em #eaeaea , 10em 6em #eaeaea , 11em 6em #eaeaea , 12em 6em #eaeaea,  0em 8em #eaeaea , 1em 8em #eaeaea , 2em 8em #eaeaea,  8em 9em #eaeaea , 9em 9em #eaeaea,  -2em 10em #eaeaea , -1em 10em #eaeaea,  6em 11em #eaeaea , 7em 11em #eaeaea;
+  }
+  45% {
+    box-shadow:  -12em 6em #eaeaea , -11em 6em #eaeaea , -10em 6em #eaeaea , -9em 6em #eaeaea , -8em 6em #eaeaea , -7em 6em #eaeaea , -6em 6em #eaeaea , 4em 6em #eaeaea , 5em 6em #eaeaea , 6em 6em #eaeaea , 7em 6em #eaeaea , 8em 6em #eaeaea , 9em 6em #eaeaea , 10em 6em #eaeaea , 11em 6em #eaeaea , 12em 6em #eaeaea,  -4em 8em #eaeaea , -3em 8em #eaeaea , -2em 8em #eaeaea,  4em 9em #eaeaea , 5em 9em #eaeaea,  -6em 10em #eaeaea , -5em 10em #eaeaea,  2em 11em #eaeaea , 3em 11em #eaeaea;
+  }
+  60% {
+    box-shadow:  -12em 6em #eaeaea , -11em 6em #eaeaea , -10em 6em #eaeaea , -9em 6em #eaeaea , -8em 6em #eaeaea , -7em 6em #eaeaea , -6em 6em #eaeaea , 4em 6em #eaeaea , 5em 6em #eaeaea , 6em 6em #eaeaea , 7em 6em #eaeaea , 8em 6em #eaeaea , 9em 6em #eaeaea , 10em 6em #eaeaea , 11em 6em #eaeaea , 12em 6em #eaeaea,  -8em 8em #eaeaea , -7em 8em #eaeaea , -6em 8em #eaeaea,  0em 9em #eaeaea , 1em 9em #eaeaea,  -10em 10em #eaeaea , -9em 10em #eaeaea,  -2em 11em #eaeaea , -1em 11em #eaeaea;
+  }
+  75% {
+    box-shadow:  -12em 6em #eaeaea , -11em 6em #eaeaea , -10em 6em #eaeaea , -9em 6em #eaeaea , -8em 6em #eaeaea , -7em 6em #eaeaea , -6em 6em #eaeaea , 4em 6em #eaeaea , 5em 6em #eaeaea , 6em 6em #eaeaea , 7em 6em #eaeaea , 8em 6em #eaeaea , 9em 6em #eaeaea , 10em 6em #eaeaea , 11em 6em #eaeaea , 12em 6em #eaeaea,  -12em 8em #eaeaea , -11em 8em #eaeaea , -10em 8em #eaeaea,  -4em 9em #eaeaea , -3em 9em #eaeaea,  10em 10em #eaeaea , 11em 10em #eaeaea,  -6em 11em #eaeaea , -5em 11em #eaeaea;
+  }
+}
+@keyframes ground {
+  0% {
+    box-shadow:  -12em 6em #eaeaea , -11em 6em #eaeaea , -10em 6em #eaeaea , -9em 6em #eaeaea , -8em 6em #eaeaea , -7em 6em #eaeaea , -6em 6em #eaeaea , 4em 6em #eaeaea , 5em 6em #eaeaea , 6em 6em #eaeaea , 7em 6em #eaeaea , 8em 6em #eaeaea , 9em 6em #eaeaea , 10em 6em #eaeaea , 11em 6em #eaeaea , 12em 6em #eaeaea,  8em 8em #eaeaea , 9em 8em #eaeaea , 10em 8em #eaeaea,  -7em 9em #eaeaea , -6em 9em #eaeaea,  6em 10em #eaeaea , 7em 10em #eaeaea,  -10em 11em #eaeaea , -9em 11em #eaeaea;
+  }
+  15% {
+    box-shadow:  -12em 6em #eaeaea , -11em 6em #eaeaea , -10em 6em #eaeaea , -9em 6em #eaeaea , -8em 6em #eaeaea , -7em 6em #eaeaea , -6em 6em #eaeaea , 4em 6em #eaeaea , 5em 6em #eaeaea , 6em 6em #eaeaea , 7em 6em #eaeaea , 8em 6em #eaeaea , 9em 6em #eaeaea , 10em 6em #eaeaea , 11em 6em #eaeaea , 12em 6em #eaeaea,  4em 8em #eaeaea , 5em 8em #eaeaea , 6em 8em #eaeaea,  -12em 9em #eaeaea , -11em 9em #eaeaea,  2em 10em #eaeaea , 3em 10em #eaeaea,  10em 11em #eaeaea , 11em 11em #eaeaea;
+  }
+  30% {
+    box-shadow:  -12em 6em #eaeaea , -11em 6em #eaeaea , -10em 6em #eaeaea , -9em 6em #eaeaea , -8em 6em #eaeaea , -7em 6em #eaeaea , -6em 6em #eaeaea , 4em 6em #eaeaea , 5em 6em #eaeaea , 6em 6em #eaeaea , 7em 6em #eaeaea , 8em 6em #eaeaea , 9em 6em #eaeaea , 10em 6em #eaeaea , 11em 6em #eaeaea , 12em 6em #eaeaea,  0em 8em #eaeaea , 1em 8em #eaeaea , 2em 8em #eaeaea,  8em 9em #eaeaea , 9em 9em #eaeaea,  -2em 10em #eaeaea , -1em 10em #eaeaea,  6em 11em #eaeaea , 7em 11em #eaeaea;
+  }
+  45% {
+    box-shadow:  -12em 6em #eaeaea , -11em 6em #eaeaea , -10em 6em #eaeaea , -9em 6em #eaeaea , -8em 6em #eaeaea , -7em 6em #eaeaea , -6em 6em #eaeaea , 4em 6em #eaeaea , 5em 6em #eaeaea , 6em 6em #eaeaea , 7em 6em #eaeaea , 8em 6em #eaeaea , 9em 6em #eaeaea , 10em 6em #eaeaea , 11em 6em #eaeaea , 12em 6em #eaeaea,  -4em 8em #eaeaea , -3em 8em #eaeaea , -2em 8em #eaeaea,  4em 9em #eaeaea , 5em 9em #eaeaea,  -6em 10em #eaeaea , -5em 10em #eaeaea,  2em 11em #eaeaea , 3em 11em #eaeaea;
+  }
+  60% {
+    box-shadow:  -12em 6em #eaeaea , -11em 6em #eaeaea , -10em 6em #eaeaea , -9em 6em #eaeaea , -8em 6em #eaeaea , -7em 6em #eaeaea , -6em 6em #eaeaea , 4em 6em #eaeaea , 5em 6em #eaeaea , 6em 6em #eaeaea , 7em 6em #eaeaea , 8em 6em #eaeaea , 9em 6em #eaeaea , 10em 6em #eaeaea , 11em 6em #eaeaea , 12em 6em #eaeaea,  -8em 8em #eaeaea , -7em 8em #eaeaea , -6em 8em #eaeaea,  0em 9em #eaeaea , 1em 9em #eaeaea,  -10em 10em #eaeaea , -9em 10em #eaeaea,  -2em 11em #eaeaea , -1em 11em #eaeaea;
+  }
+  75% {
+    box-shadow:  -12em 6em #eaeaea , -11em 6em #eaeaea , -10em 6em #eaeaea , -9em 6em #eaeaea , -8em 6em #eaeaea , -7em 6em #eaeaea , -6em 6em #eaeaea , 4em 6em #eaeaea , 5em 6em #eaeaea , 6em 6em #eaeaea , 7em 6em #eaeaea , 8em 6em #eaeaea , 9em 6em #eaeaea , 10em 6em #eaeaea , 11em 6em #eaeaea , 12em 6em #eaeaea,  -12em 8em #eaeaea , -11em 8em #eaeaea , -10em 8em #eaeaea,  -4em 9em #eaeaea , -3em 9em #eaeaea,  10em 10em #eaeaea , 11em 10em #eaeaea,  -6em 11em #eaeaea , -5em 11em #eaeaea;
+  }
+}
+@-webkit-keyframes dino {
+  0% {
+    box-shadow:  2em -10em #eaeaea , 3em -10em #eaeaea , 4em -10em #eaeaea , 5em -10em #eaeaea , 6em -10em #eaeaea , 7em -10em #eaeaea , 8em -10em #eaeaea , 9em -10em #eaeaea,  1em -9em #eaeaea , 2em -9em #eaeaea , 4em -9em #eaeaea , 5em -9em #eaeaea , 6em -9em #eaeaea , 7em -9em #eaeaea , 8em -9em #eaeaea , 9em -9em #eaeaea , 10em -9em #eaeaea,  1em -8em #eaeaea , 2em -8em #eaeaea , 3em -8em #eaeaea , 4em -8em #eaeaea , 5em -8em #eaeaea , 6em -8em #eaeaea , 7em -8em #eaeaea , 8em -8em #eaeaea , 9em -8em #eaeaea , 10em -8em #eaeaea,  1em -7em #eaeaea , 2em -7em #eaeaea , 3em -7em #eaeaea , 4em -7em #eaeaea , 5em -7em #eaeaea , 6em -7em #eaeaea , 7em -7em #eaeaea , 8em -7em #eaeaea , 9em -7em #eaeaea , 10em -7em #eaeaea,  1em -6em #eaeaea , 2em -6em #eaeaea , 3em -6em #eaeaea , 4em -6em #eaeaea , 5em -6em #eaeaea , 6em -6em #eaeaea , 7em -6em #eaeaea , 8em -6em #eaeaea , 9em -6em #eaeaea , 10em -6em #eaeaea,  1em -5em #eaeaea , 2em -5em #eaeaea , 3em -5em #eaeaea , 4em -5em #eaeaea , 5em -5em #eaeaea,  0em -4em #eaeaea , 1em -4em #eaeaea , 2em -4em #eaeaea , 3em -4em #eaeaea , 4em -4em #eaeaea , 5em -4em #eaeaea,  -9em -3em #eaeaea , -3em -3em #eaeaea , -2em -3em #eaeaea , -1em -3em #eaeaea , 0em -3em #eaeaea , 1em -3em #eaeaea , 2em -3em #eaeaea , 3em -3em #eaeaea , 4em -3em #eaeaea,  -9em -2em #eaeaea , -2em -2em #eaeaea , -1em -2em #eaeaea , 0em -2em #eaeaea , 1em -2em #eaeaea , 2em -2em #eaeaea , 3em -2em #eaeaea , 4em -2em #eaeaea,  -9em -1em #eaeaea , -8em -1em #eaeaea , -3em -1em #eaeaea , -2em -1em #eaeaea , -1em -1em #eaeaea , 0em -1em #eaeaea , 1em -1em #eaeaea , 2em -1em #eaeaea , 3em -1em #eaeaea , 4em -1em #eaeaea , 5em -1em #eaeaea , 6em -1em #eaeaea,  -9em 0em #eaeaea , -8em 0em #eaeaea , -7em 0em #eaeaea , -4em 0em #eaeaea , -3em 0em #eaeaea , -2em 0em #eaeaea , -1em 0em #eaeaea , 0em 0em #eaeaea , 1em 0em #eaeaea , 2em 0em #eaeaea , 3em 0em #eaeaea , 4em 0em #eaeaea , 6em 0em #eaeaea,  -9em 1em #eaeaea , -8em 1em #eaeaea , -7em 1em #eaeaea , -6em 1em #eaeaea , -5em 1em #eaeaea , -4em 1em #eaeaea , -3em 1em #eaeaea , -2em 1em #eaeaea , -1em 1em #eaeaea , 0em 1em #eaeaea , 1em 1em #eaeaea , 2em 1em #eaeaea , 3em 1em #eaeaea , 4em 1em #eaeaea,  -8em 2em #eaeaea , -7em 2em #eaeaea , -6em 2em #eaeaea , -5em 2em #eaeaea , -4em 2em #eaeaea , -3em 2em #eaeaea , -2em 2em #eaeaea , -1em 2em #eaeaea , 0em 2em #eaeaea , 1em 2em #eaeaea , 2em 2em #eaeaea , 3em 2em #eaeaea , 4em 2em #eaeaea,  -7em 3em #eaeaea , -6em 3em #eaeaea , -5em 3em #eaeaea , -4em 3em #eaeaea , -3em 3em #eaeaea , -2em 3em #eaeaea , -1em 3em #eaeaea , 0em 3em #eaeaea , 1em 3em #eaeaea , 2em 3em #eaeaea , 3em 3em #eaeaea,  -6em 4em #eaeaea , -5em 4em #eaeaea , -4em 4em #eaeaea , -3em 4em #eaeaea , -2em 4em #eaeaea , -1em 4em #eaeaea , 0em 4em #eaeaea , 1em 4em #eaeaea , 2em 4em #eaeaea,  -5em 5em #eaeaea , -4em 5em #eaeaea , -3em 5em #eaeaea , -2em 5em #eaeaea , -1em 5em #eaeaea , 0em 5em #eaeaea , 1em 5em #eaeaea,  -4em 6em #eaeaea , -3em 6em #eaeaea , 0em 6em #eaeaea , 1em 6em #eaeaea,  -3em 7em #eaeaea , -2em 7em #eaeaea , 1em 7em #eaeaea,  1em 8em #eaeaea,  1em 9em #eaeaea , 2em 9em #eaeaea;
+  }
+  50% {
+    box-shadow:  2em -10em #eaeaea , 3em -10em #eaeaea , 4em -10em #eaeaea , 5em -10em #eaeaea , 6em -10em #eaeaea , 7em -10em #eaeaea , 8em -10em #eaeaea , 9em -10em #eaeaea,  1em -9em #eaeaea , 2em -9em #eaeaea , 4em -9em #eaeaea , 5em -9em #eaeaea , 6em -9em #eaeaea , 7em -9em #eaeaea , 8em -9em #eaeaea , 9em -9em #eaeaea , 10em -9em #eaeaea,  1em -8em #eaeaea , 2em -8em #eaeaea , 3em -8em #eaeaea , 4em -8em #eaeaea , 5em -8em #eaeaea , 6em -8em #eaeaea , 7em -8em #eaeaea , 8em -8em #eaeaea , 9em -8em #eaeaea , 10em -8em #eaeaea,  1em -7em #eaeaea , 2em -7em #eaeaea , 3em -7em #eaeaea , 4em -7em #eaeaea , 5em -7em #eaeaea , 6em -7em #eaeaea , 7em -7em #eaeaea , 8em -7em #eaeaea , 9em -7em #eaeaea , 10em -7em #eaeaea,  1em -6em #eaeaea , 2em -6em #eaeaea , 3em -6em #eaeaea , 4em -6em #eaeaea , 5em -6em #eaeaea , 6em -6em #eaeaea , 7em -6em #eaeaea , 8em -6em #eaeaea , 9em -6em #eaeaea , 10em -6em #eaeaea,  1em -5em #eaeaea , 2em -5em #eaeaea , 3em -5em #eaeaea , 4em -5em #eaeaea , 5em -5em #eaeaea,  -3em -4em #eaeaea , -2em -4em #eaeaea , 0em -4em #eaeaea , 1em -4em #eaeaea , 2em -4em #eaeaea , 3em -4em #eaeaea , 4em -4em #eaeaea , 5em -4em #eaeaea,  -9em -3em #eaeaea , -2em -3em #eaeaea , -1em -3em #eaeaea , 0em -3em #eaeaea , 1em -3em #eaeaea , 2em -3em #eaeaea , 3em -3em #eaeaea , 4em -3em #eaeaea,  -9em -2em #eaeaea , -2em -2em #eaeaea , -1em -2em #eaeaea , 0em -2em #eaeaea , 1em -2em #eaeaea , 2em -2em #eaeaea , 3em -2em #eaeaea , 4em -2em #eaeaea,  -9em -1em #eaeaea , -8em -1em #eaeaea , -3em -1em #eaeaea , -2em -1em #eaeaea , -1em -1em #eaeaea , 0em -1em #eaeaea , 1em -1em #eaeaea , 2em -1em #eaeaea , 3em -1em #eaeaea , 4em -1em #eaeaea,  -9em 0em #eaeaea , -8em 0em #eaeaea , -7em 0em #eaeaea , -4em 0em #eaeaea , -3em 0em #eaeaea , -2em 0em #eaeaea , -1em 0em #eaeaea , 0em 0em #eaeaea , 1em 0em #eaeaea , 2em 0em #eaeaea , 3em 0em #eaeaea , 4em 0em #eaeaea , 5em 0em #eaeaea , 6em 0em #eaeaea,  -9em 1em #eaeaea , -8em 1em #eaeaea , -7em 1em #eaeaea , -6em 1em #eaeaea , -5em 1em #eaeaea , -4em 1em #eaeaea , -3em 1em #eaeaea , -2em 1em #eaeaea , -1em 1em #eaeaea , 0em 1em #eaeaea , 1em 1em #eaeaea , 2em 1em #eaeaea , 3em 1em #eaeaea , 4em 1em #eaeaea , 6em 1em #eaeaea,  -8em 2em #eaeaea , -7em 2em #eaeaea , -6em 2em #eaeaea , -5em 2em #eaeaea , -4em 2em #eaeaea , -3em 2em #eaeaea , -2em 2em #eaeaea , -1em 2em #eaeaea , 0em 2em #eaeaea , 1em 2em #eaeaea , 2em 2em #eaeaea , 3em 2em #eaeaea , 4em 2em #eaeaea,  -7em 3em #eaeaea , -6em 3em #eaeaea , -5em 3em #eaeaea , -4em 3em #eaeaea , -3em 3em #eaeaea , -2em 3em #eaeaea , -1em 3em #eaeaea , 0em 3em #eaeaea , 1em 3em #eaeaea , 2em 3em #eaeaea , 3em 3em #eaeaea,  -6em 4em #eaeaea , -5em 4em #eaeaea , -4em 4em #eaeaea , -3em 4em #eaeaea , -2em 4em #eaeaea , -1em 4em #eaeaea , 0em 4em #eaeaea , 1em 4em #eaeaea , 2em 4em #eaeaea,  -5em 5em #eaeaea , -4em 5em #eaeaea , -3em 5em #eaeaea , -2em 5em #eaeaea , -1em 5em #eaeaea , 0em 5em #eaeaea , 1em 5em #eaeaea,  -4em 6em #eaeaea , -3em 6em #eaeaea , -2em 6em #eaeaea , 1em 6em #eaeaea , 2em 6em #eaeaea,  -4em 7em #eaeaea , -3em 7em #eaeaea,  -4em 8em #eaeaea,  -4em 9em #eaeaea , -3em 9em #eaeaea;
+  }
+}
+@-moz-keyframes dino {
+  0% {
+    box-shadow:  2em -10em #eaeaea , 3em -10em #eaeaea , 4em -10em #eaeaea , 5em -10em #eaeaea , 6em -10em #eaeaea , 7em -10em #eaeaea , 8em -10em #eaeaea , 9em -10em #eaeaea,  1em -9em #eaeaea , 2em -9em #eaeaea , 4em -9em #eaeaea , 5em -9em #eaeaea , 6em -9em #eaeaea , 7em -9em #eaeaea , 8em -9em #eaeaea , 9em -9em #eaeaea , 10em -9em #eaeaea,  1em -8em #eaeaea , 2em -8em #eaeaea , 3em -8em #eaeaea , 4em -8em #eaeaea , 5em -8em #eaeaea , 6em -8em #eaeaea , 7em -8em #eaeaea , 8em -8em #eaeaea , 9em -8em #eaeaea , 10em -8em #eaeaea,  1em -7em #eaeaea , 2em -7em #eaeaea , 3em -7em #eaeaea , 4em -7em #eaeaea , 5em -7em #eaeaea , 6em -7em #eaeaea , 7em -7em #eaeaea , 8em -7em #eaeaea , 9em -7em #eaeaea , 10em -7em #eaeaea,  1em -6em #eaeaea , 2em -6em #eaeaea , 3em -6em #eaeaea , 4em -6em #eaeaea , 5em -6em #eaeaea , 6em -6em #eaeaea , 7em -6em #eaeaea , 8em -6em #eaeaea , 9em -6em #eaeaea , 10em -6em #eaeaea,  1em -5em #eaeaea , 2em -5em #eaeaea , 3em -5em #eaeaea , 4em -5em #eaeaea , 5em -5em #eaeaea,  0em -4em #eaeaea , 1em -4em #eaeaea , 2em -4em #eaeaea , 3em -4em #eaeaea , 4em -4em #eaeaea , 5em -4em #eaeaea,  -9em -3em #eaeaea , -3em -3em #eaeaea , -2em -3em #eaeaea , -1em -3em #eaeaea , 0em -3em #eaeaea , 1em -3em #eaeaea , 2em -3em #eaeaea , 3em -3em #eaeaea , 4em -3em #eaeaea,  -9em -2em #eaeaea , -2em -2em #eaeaea , -1em -2em #eaeaea , 0em -2em #eaeaea , 1em -2em #eaeaea , 2em -2em #eaeaea , 3em -2em #eaeaea , 4em -2em #eaeaea,  -9em -1em #eaeaea , -8em -1em #eaeaea , -3em -1em #eaeaea , -2em -1em #eaeaea , -1em -1em #eaeaea , 0em -1em #eaeaea , 1em -1em #eaeaea , 2em -1em #eaeaea , 3em -1em #eaeaea , 4em -1em #eaeaea , 5em -1em #eaeaea , 6em -1em #eaeaea,  -9em 0em #eaeaea , -8em 0em #eaeaea , -7em 0em #eaeaea , -4em 0em #eaeaea , -3em 0em #eaeaea , -2em 0em #eaeaea , -1em 0em #eaeaea , 0em 0em #eaeaea , 1em 0em #eaeaea , 2em 0em #eaeaea , 3em 0em #eaeaea , 4em 0em #eaeaea , 6em 0em #eaeaea,  -9em 1em #eaeaea , -8em 1em #eaeaea , -7em 1em #eaeaea , -6em 1em #eaeaea , -5em 1em #eaeaea , -4em 1em #eaeaea , -3em 1em #eaeaea , -2em 1em #eaeaea , -1em 1em #eaeaea , 0em 1em #eaeaea , 1em 1em #eaeaea , 2em 1em #eaeaea , 3em 1em #eaeaea , 4em 1em #eaeaea,  -8em 2em #eaeaea , -7em 2em #eaeaea , -6em 2em #eaeaea , -5em 2em #eaeaea , -4em 2em #eaeaea , -3em 2em #eaeaea , -2em 2em #eaeaea , -1em 2em #eaeaea , 0em 2em #eaeaea , 1em 2em #eaeaea , 2em 2em #eaeaea , 3em 2em #eaeaea , 4em 2em #eaeaea,  -7em 3em #eaeaea , -6em 3em #eaeaea , -5em 3em #eaeaea , -4em 3em #eaeaea , -3em 3em #eaeaea , -2em 3em #eaeaea , -1em 3em #eaeaea , 0em 3em #eaeaea , 1em 3em #eaeaea , 2em 3em #eaeaea , 3em 3em #eaeaea,  -6em 4em #eaeaea , -5em 4em #eaeaea , -4em 4em #eaeaea , -3em 4em #eaeaea , -2em 4em #eaeaea , -1em 4em #eaeaea , 0em 4em #eaeaea , 1em 4em #eaeaea , 2em 4em #eaeaea,  -5em 5em #eaeaea , -4em 5em #eaeaea , -3em 5em #eaeaea , -2em 5em #eaeaea , -1em 5em #eaeaea , 0em 5em #eaeaea , 1em 5em #eaeaea,  -4em 6em #eaeaea , -3em 6em #eaeaea , 0em 6em #eaeaea , 1em 6em #eaeaea,  -3em 7em #eaeaea , -2em 7em #eaeaea , 1em 7em #eaeaea,  1em 8em #eaeaea,  1em 9em #eaeaea , 2em 9em #eaeaea;
+  }
+  50% {
+    box-shadow:  2em -10em #eaeaea , 3em -10em #eaeaea , 4em -10em #eaeaea , 5em -10em #eaeaea , 6em -10em #eaeaea , 7em -10em #eaeaea , 8em -10em #eaeaea , 9em -10em #eaeaea,  1em -9em #eaeaea , 2em -9em #eaeaea , 4em -9em #eaeaea , 5em -9em #eaeaea , 6em -9em #eaeaea , 7em -9em #eaeaea , 8em -9em #eaeaea , 9em -9em #eaeaea , 10em -9em #eaeaea,  1em -8em #eaeaea , 2em -8em #eaeaea , 3em -8em #eaeaea , 4em -8em #eaeaea , 5em -8em #eaeaea , 6em -8em #eaeaea , 7em -8em #eaeaea , 8em -8em #eaeaea , 9em -8em #eaeaea , 10em -8em #eaeaea,  1em -7em #eaeaea , 2em -7em #eaeaea , 3em -7em #eaeaea , 4em -7em #eaeaea , 5em -7em #eaeaea , 6em -7em #eaeaea , 7em -7em #eaeaea , 8em -7em #eaeaea , 9em -7em #eaeaea , 10em -7em #eaeaea,  1em -6em #eaeaea , 2em -6em #eaeaea , 3em -6em #eaeaea , 4em -6em #eaeaea , 5em -6em #eaeaea , 6em -6em #eaeaea , 7em -6em #eaeaea , 8em -6em #eaeaea , 9em -6em #eaeaea , 10em -6em #eaeaea,  1em -5em #eaeaea , 2em -5em #eaeaea , 3em -5em #eaeaea , 4em -5em #eaeaea , 5em -5em #eaeaea,  -3em -4em #eaeaea , -2em -4em #eaeaea , 0em -4em #eaeaea , 1em -4em #eaeaea , 2em -4em #eaeaea , 3em -4em #eaeaea , 4em -4em #eaeaea , 5em -4em #eaeaea,  -9em -3em #eaeaea , -2em -3em #eaeaea , -1em -3em #eaeaea , 0em -3em #eaeaea , 1em -3em #eaeaea , 2em -3em #eaeaea , 3em -3em #eaeaea , 4em -3em #eaeaea,  -9em -2em #eaeaea , -2em -2em #eaeaea , -1em -2em #eaeaea , 0em -2em #eaeaea , 1em -2em #eaeaea , 2em -2em #eaeaea , 3em -2em #eaeaea , 4em -2em #eaeaea,  -9em -1em #eaeaea , -8em -1em #eaeaea , -3em -1em #eaeaea , -2em -1em #eaeaea , -1em -1em #eaeaea , 0em -1em #eaeaea , 1em -1em #eaeaea , 2em -1em #eaeaea , 3em -1em #eaeaea , 4em -1em #eaeaea,  -9em 0em #eaeaea , -8em 0em #eaeaea , -7em 0em #eaeaea , -4em 0em #eaeaea , -3em 0em #eaeaea , -2em 0em #eaeaea , -1em 0em #eaeaea , 0em 0em #eaeaea , 1em 0em #eaeaea , 2em 0em #eaeaea , 3em 0em #eaeaea , 4em 0em #eaeaea , 5em 0em #eaeaea , 6em 0em #eaeaea,  -9em 1em #eaeaea , -8em 1em #eaeaea , -7em 1em #eaeaea , -6em 1em #eaeaea , -5em 1em #eaeaea , -4em 1em #eaeaea , -3em 1em #eaeaea , -2em 1em #eaeaea , -1em 1em #eaeaea , 0em 1em #eaeaea , 1em 1em #eaeaea , 2em 1em #eaeaea , 3em 1em #eaeaea , 4em 1em #eaeaea , 6em 1em #eaeaea,  -8em 2em #eaeaea , -7em 2em #eaeaea , -6em 2em #eaeaea , -5em 2em #eaeaea , -4em 2em #eaeaea , -3em 2em #eaeaea , -2em 2em #eaeaea , -1em 2em #eaeaea , 0em 2em #eaeaea , 1em 2em #eaeaea , 2em 2em #eaeaea , 3em 2em #eaeaea , 4em 2em #eaeaea,  -7em 3em #eaeaea , -6em 3em #eaeaea , -5em 3em #eaeaea , -4em 3em #eaeaea , -3em 3em #eaeaea , -2em 3em #eaeaea , -1em 3em #eaeaea , 0em 3em #eaeaea , 1em 3em #eaeaea , 2em 3em #eaeaea , 3em 3em #eaeaea,  -6em 4em #eaeaea , -5em 4em #eaeaea , -4em 4em #eaeaea , -3em 4em #eaeaea , -2em 4em #eaeaea , -1em 4em #eaeaea , 0em 4em #eaeaea , 1em 4em #eaeaea , 2em 4em #eaeaea,  -5em 5em #eaeaea , -4em 5em #eaeaea , -3em 5em #eaeaea , -2em 5em #eaeaea , -1em 5em #eaeaea , 0em 5em #eaeaea , 1em 5em #eaeaea,  -4em 6em #eaeaea , -3em 6em #eaeaea , -2em 6em #eaeaea , 1em 6em #eaeaea , 2em 6em #eaeaea,  -4em 7em #eaeaea , -3em 7em #eaeaea,  -4em 8em #eaeaea,  -4em 9em #eaeaea , -3em 9em #eaeaea;
+  }
+}
+@keyframes dino {
+  0% {
+    box-shadow:  2em -10em #eaeaea , 3em -10em #eaeaea , 4em -10em #eaeaea , 5em -10em #eaeaea , 6em -10em #eaeaea , 7em -10em #eaeaea , 8em -10em #eaeaea , 9em -10em #eaeaea,  1em -9em #eaeaea , 2em -9em #eaeaea , 4em -9em #eaeaea , 5em -9em #eaeaea , 6em -9em #eaeaea , 7em -9em #eaeaea , 8em -9em #eaeaea , 9em -9em #eaeaea , 10em -9em #eaeaea,  1em -8em #eaeaea , 2em -8em #eaeaea , 3em -8em #eaeaea , 4em -8em #eaeaea , 5em -8em #eaeaea , 6em -8em #eaeaea , 7em -8em #eaeaea , 8em -8em #eaeaea , 9em -8em #eaeaea , 10em -8em #eaeaea,  1em -7em #eaeaea , 2em -7em #eaeaea , 3em -7em #eaeaea , 4em -7em #eaeaea , 5em -7em #eaeaea , 6em -7em #eaeaea , 7em -7em #eaeaea , 8em -7em #eaeaea , 9em -7em #eaeaea , 10em -7em #eaeaea,  1em -6em #eaeaea , 2em -6em #eaeaea , 3em -6em #eaeaea , 4em -6em #eaeaea , 5em -6em #eaeaea , 6em -6em #eaeaea , 7em -6em #eaeaea , 8em -6em #eaeaea , 9em -6em #eaeaea , 10em -6em #eaeaea,  1em -5em #eaeaea , 2em -5em #eaeaea , 3em -5em #eaeaea , 4em -5em #eaeaea , 5em -5em #eaeaea,  0em -4em #eaeaea , 1em -4em #eaeaea , 2em -4em #eaeaea , 3em -4em #eaeaea , 4em -4em #eaeaea , 5em -4em #eaeaea,  -9em -3em #eaeaea , -3em -3em #eaeaea , -2em -3em #eaeaea , -1em -3em #eaeaea , 0em -3em #eaeaea , 1em -3em #eaeaea , 2em -3em #eaeaea , 3em -3em #eaeaea , 4em -3em #eaeaea,  -9em -2em #eaeaea , -2em -2em #eaeaea , -1em -2em #eaeaea , 0em -2em #eaeaea , 1em -2em #eaeaea , 2em -2em #eaeaea , 3em -2em #eaeaea , 4em -2em #eaeaea,  -9em -1em #eaeaea , -8em -1em #eaeaea , -3em -1em #eaeaea , -2em -1em #eaeaea , -1em -1em #eaeaea , 0em -1em #eaeaea , 1em -1em #eaeaea , 2em -1em #eaeaea , 3em -1em #eaeaea , 4em -1em #eaeaea , 5em -1em #eaeaea , 6em -1em #eaeaea,  -9em 0em #eaeaea , -8em 0em #eaeaea , -7em 0em #eaeaea , -4em 0em #eaeaea , -3em 0em #eaeaea , -2em 0em #eaeaea , -1em 0em #eaeaea , 0em 0em #eaeaea , 1em 0em #eaeaea , 2em 0em #eaeaea , 3em 0em #eaeaea , 4em 0em #eaeaea , 6em 0em #eaeaea,  -9em 1em #eaeaea , -8em 1em #eaeaea , -7em 1em #eaeaea , -6em 1em #eaeaea , -5em 1em #eaeaea , -4em 1em #eaeaea , -3em 1em #eaeaea , -2em 1em #eaeaea , -1em 1em #eaeaea , 0em 1em #eaeaea , 1em 1em #eaeaea , 2em 1em #eaeaea , 3em 1em #eaeaea , 4em 1em #eaeaea,  -8em 2em #eaeaea , -7em 2em #eaeaea , -6em 2em #eaeaea , -5em 2em #eaeaea , -4em 2em #eaeaea , -3em 2em #eaeaea , -2em 2em #eaeaea , -1em 2em #eaeaea , 0em 2em #eaeaea , 1em 2em #eaeaea , 2em 2em #eaeaea , 3em 2em #eaeaea , 4em 2em #eaeaea,  -7em 3em #eaeaea , -6em 3em #eaeaea , -5em 3em #eaeaea , -4em 3em #eaeaea , -3em 3em #eaeaea , -2em 3em #eaeaea , -1em 3em #eaeaea , 0em 3em #eaeaea , 1em 3em #eaeaea , 2em 3em #eaeaea , 3em 3em #eaeaea,  -6em 4em #eaeaea , -5em 4em #eaeaea , -4em 4em #eaeaea , -3em 4em #eaeaea , -2em 4em #eaeaea , -1em 4em #eaeaea , 0em 4em #eaeaea , 1em 4em #eaeaea , 2em 4em #eaeaea,  -5em 5em #eaeaea , -4em 5em #eaeaea , -3em 5em #eaeaea , -2em 5em #eaeaea , -1em 5em #eaeaea , 0em 5em #eaeaea , 1em 5em #eaeaea,  -4em 6em #eaeaea , -3em 6em #eaeaea , 0em 6em #eaeaea , 1em 6em #eaeaea,  -3em 7em #eaeaea , -2em 7em #eaeaea , 1em 7em #eaeaea,  1em 8em #eaeaea,  1em 9em #eaeaea , 2em 9em #eaeaea;
+  }
+  50% {
+    box-shadow:  2em -10em #eaeaea , 3em -10em #eaeaea , 4em -10em #eaeaea , 5em -10em #eaeaea , 6em -10em #eaeaea , 7em -10em #eaeaea , 8em -10em #eaeaea , 9em -10em #eaeaea,  1em -9em #eaeaea , 2em -9em #eaeaea , 4em -9em #eaeaea , 5em -9em #eaeaea , 6em -9em #eaeaea , 7em -9em #eaeaea , 8em -9em #eaeaea , 9em -9em #eaeaea , 10em -9em #eaeaea,  1em -8em #eaeaea , 2em -8em #eaeaea , 3em -8em #eaeaea , 4em -8em #eaeaea , 5em -8em #eaeaea , 6em -8em #eaeaea , 7em -8em #eaeaea , 8em -8em #eaeaea , 9em -8em #eaeaea , 10em -8em #eaeaea,  1em -7em #eaeaea , 2em -7em #eaeaea , 3em -7em #eaeaea , 4em -7em #eaeaea , 5em -7em #eaeaea , 6em -7em #eaeaea , 7em -7em #eaeaea , 8em -7em #eaeaea , 9em -7em #eaeaea , 10em -7em #eaeaea,  1em -6em #eaeaea , 2em -6em #eaeaea , 3em -6em #eaeaea , 4em -6em #eaeaea , 5em -6em #eaeaea , 6em -6em #eaeaea , 7em -6em #eaeaea , 8em -6em #eaeaea , 9em -6em #eaeaea , 10em -6em #eaeaea,  1em -5em #eaeaea , 2em -5em #eaeaea , 3em -5em #eaeaea , 4em -5em #eaeaea , 5em -5em #eaeaea,  -3em -4em #eaeaea , -2em -4em #eaeaea , 0em -4em #eaeaea , 1em -4em #eaeaea , 2em -4em #eaeaea , 3em -4em #eaeaea , 4em -4em #eaeaea , 5em -4em #eaeaea,  -9em -3em #eaeaea , -2em -3em #eaeaea , -1em -3em #eaeaea , 0em -3em #eaeaea , 1em -3em #eaeaea , 2em -3em #eaeaea , 3em -3em #eaeaea , 4em -3em #eaeaea,  -9em -2em #eaeaea , -2em -2em #eaeaea , -1em -2em #eaeaea , 0em -2em #eaeaea , 1em -2em #eaeaea , 2em -2em #eaeaea , 3em -2em #eaeaea , 4em -2em #eaeaea,  -9em -1em #eaeaea , -8em -1em #eaeaea , -3em -1em #eaeaea , -2em -1em #eaeaea , -1em -1em #eaeaea , 0em -1em #eaeaea , 1em -1em #eaeaea , 2em -1em #eaeaea , 3em -1em #eaeaea , 4em -1em #eaeaea,  -9em 0em #eaeaea , -8em 0em #eaeaea , -7em 0em #eaeaea , -4em 0em #eaeaea , -3em 0em #eaeaea , -2em 0em #eaeaea , -1em 0em #eaeaea , 0em 0em #eaeaea , 1em 0em #eaeaea , 2em 0em #eaeaea , 3em 0em #eaeaea , 4em 0em #eaeaea , 5em 0em #eaeaea , 6em 0em #eaeaea,  -9em 1em #eaeaea , -8em 1em #eaeaea , -7em 1em #eaeaea , -6em 1em #eaeaea , -5em 1em #eaeaea , -4em 1em #eaeaea , -3em 1em #eaeaea , -2em 1em #eaeaea , -1em 1em #eaeaea , 0em 1em #eaeaea , 1em 1em #eaeaea , 2em 1em #eaeaea , 3em 1em #eaeaea , 4em 1em #eaeaea , 6em 1em #eaeaea,  -8em 2em #eaeaea , -7em 2em #eaeaea , -6em 2em #eaeaea , -5em 2em #eaeaea , -4em 2em #eaeaea , -3em 2em #eaeaea , -2em 2em #eaeaea , -1em 2em #eaeaea , 0em 2em #eaeaea , 1em 2em #eaeaea , 2em 2em #eaeaea , 3em 2em #eaeaea , 4em 2em #eaeaea,  -7em 3em #eaeaea , -6em 3em #eaeaea , -5em 3em #eaeaea , -4em 3em #eaeaea , -3em 3em #eaeaea , -2em 3em #eaeaea , -1em 3em #eaeaea , 0em 3em #eaeaea , 1em 3em #eaeaea , 2em 3em #eaeaea , 3em 3em #eaeaea,  -6em 4em #eaeaea , -5em 4em #eaeaea , -4em 4em #eaeaea , -3em 4em #eaeaea , -2em 4em #eaeaea , -1em 4em #eaeaea , 0em 4em #eaeaea , 1em 4em #eaeaea , 2em 4em #eaeaea,  -5em 5em #eaeaea , -4em 5em #eaeaea , -3em 5em #eaeaea , -2em 5em #eaeaea , -1em 5em #eaeaea , 0em 5em #eaeaea , 1em 5em #eaeaea,  -4em 6em #eaeaea , -3em 6em #eaeaea , -2em 6em #eaeaea , 1em 6em #eaeaea , 2em 6em #eaeaea,  -4em 7em #eaeaea , -3em 7em #eaeaea,  -4em 8em #eaeaea,  -4em 9em #eaeaea , -3em 9em #eaeaea;
+  }
+}
+
+.dinosaur{
+  position: absolute; right: 350px; top: 66vh;
+  transform: scale(0.6);
+}
+.dinosaur > * {
+  background: #eaeaea;
+  height: 0.5em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0.5em;
+}
+
+.mouth, .eye, .dino {
+  width: 1em;
+  height: 1em;
+}
+
+.dino {
+  -webkit-animation: dino 0.25s both steps(1) infinite;
+  -moz-animation: dino 0.25s both steps(1) infinite;
+  animation: dino 0.25s both steps(1) infinite;
+}
+
+.eye {
+  -webkit-animation: eye 4s both steps(1) infinite;
+  -moz-animation: eye 4s both steps(1) infinite;
+  animation: eye 4s both steps(1) infinite;
+}
+
+.mouth {
+  -webkit-animation: mouth 4s both steps(1) infinite;
+  -moz-animation: mouth 4s both steps(1) infinite;
+  animation: mouth 4s both steps(1) infinite;
+}
+
+.ground {
+  -webkit-animation: ground 0.5s both steps(1) infinite;
+  -moz-animation: ground 0.5s both steps(1) infinite;
+  animation: ground 0.5s both steps(1) infinite;
+}
+
+.comets {
+  -webkit-animation: comets 0.5s both steps(1) infinite;
+  -moz-animation: comets 0.5s both steps(1) infinite;
+  animation: comets 0.5s both steps(1) infinite;
+}

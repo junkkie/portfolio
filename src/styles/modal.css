@@ -1,0 +1,71 @@
+.modal{
+  z-index: 1100;
+  width: 78vw; height: 80vh;
+  position: absolute; left: 50%; top: 12vh;
+  transform: translateX(-50%);
+  background-color: #000;
+  border-radius: 10px;
+}
+.modal_inner{
+  position: absolute; left: 50%; top: 4%;
+  transform: translateX(-50%);
+  width: 96%; height: 92%;
+  border: 1px solid #eaeaea;
+}
+.projects{
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  color: #fff;
+  font-family: 'DungGeunMo';
+}
+.projects>h2{
+  font-size: 3vw;
+  margin: 0;
+  padding-top: 10vh;
+  text-align: center;
+}
+.projects>ul{
+  position: absolute; left: 50%; top: 20vh;
+  transform: translateX(-50%);
+  display: flex;
+}
+.projects>ul>li{
+  list-style: none;
+}
+
+.projects>ul>li>a{
+  display: block;
+  width: 22vw;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projects>ul>li>a>img{
+ width: 7vw; height: 9vw;
+}
+.projects>ul>li>a>span{
+  font-size: 1.5vw;
+}
+
+
+.homeBtn{
+  position: absolute; bottom: 8%; left: 50%;
+  transform: translateX(-50%);
+  background-color: #3b3b3b;
+  padding: 3px;
+  border-radius: 5px;
+}
+.homeBtn button{
+  background-color: transparent;
+  border: 1px solid #b2b2b2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'DungGeunMo';
+  font-size: 1.2rem;
+  color: #eaeaea;
+  cursor: pointer;
+}

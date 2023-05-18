@@ -1,0 +1,87 @@
+.clone_bg{
+  width: 100vw; height: 300vh;
+  overflow: hidden;
+}
+.clone_site{
+  position: absolute; top: 0;
+  width: 100vw; height: 200vh;
+  color: #fff;
+  font-family: 'DungGeunMo';
+}
+.clone_site>h3{
+  font-size: 3vw;
+  margin-left: 100px;
+}
+.clone_site>ul{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.clone_site>ul>li{
+  list-style: none;
+  font-size: 40px;
+  position: relative;
+  margin-bottom: 200px;
+}
+.clone_site>ul>li>h4{
+  display: inline-block;
+}
+
+.tools{
+  display: inline-block;
+  margin-left: 20px;
+}
+.tools img{
+  margin-bottom: -10px;
+  width: 50px; height: 50px;
+}
+
+.pj_info>ul>li{
+  list-style: none;
+  font-size: 25px;
+  line-height: 60px;
+}
+
+
+.pj_viewer{
+  position: absolute; top: 180px; right: 300px;
+}
+.pj_viewer .logo_img{
+  z-index: -1;
+  position: absolute; top: -80px; left: -150px;
+  width: 300px;
+  opacity: 0.6;
+}
+.pj_viewer>video{
+  position: absolute; left: 0; top: 6px;
+  width: 800px;
+  z-index: 10;
+}
+
+.pj_viewer .pc_mockup{
+  position: absolute;
+  width: 800px; height: 385px;
+}
+.pj_viewer:nth-of-type(2) .pc_mockup{
+  height: 390px;
+}
+
+
+
+.backBtn2{
+  position: absolute; bottom: -45%; left: 50%;
+  transform: translateX(-50%);
+  background-color: #3b3b3b;
+  padding: 3px;
+  border-radius: 5px;
+}
+.backBtn2 button{
+  background-color: transparent;
+  border: 1px solid #b2b2b2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'DungGeunMo';
+  font-size: 1.2rem;
+  color: #eaeaea;
+  cursor: pointer;
+}

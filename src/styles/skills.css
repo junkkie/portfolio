@@ -1,0 +1,160 @@
+.skills{
+  width: 100vw; height: 100vh;
+  position: relative;
+  font-family: 'DungGeunMo';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.skills>h2{
+  position: absolute;
+  color: #eaeaea;
+  font-size: 3vw;
+}
+
+.circle_L{
+  position: absolute;
+  transform-origin: center/center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45vw; height: 45vw;
+  border: 1px solid #eaeaea;
+  border-radius: 50%;
+  animation: large linear 20s infinite;
+}
+@keyframes large {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+
+.circle_L img{
+  width: 3vw; height: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-origin: center/center;
+  animation: Limgs linear 20s infinite;
+}
+@keyframes Limgs {
+  0%{transform: rotate(360deg);}
+  100%{transform: rotate(0deg);}
+}
+
+.circle_L>img:nth-of-type(1){
+  position: relative; left: 63%; top: -25%;
+}
+.circle_L>img:nth-of-type(2){
+  position: relative; right: 37%;
+}
+.circle_L>img:nth-of-type(3){
+  position: relative; left: 46%; top: 30%;
+}
+.circle_L>img:nth-of-type(4){
+  position: relative; left: 5%; top: 50%;
+}
+.circle_L>img:nth-of-type(5){
+  position: relative; right: 47%; top: 30%;;
+}
+.circle_L>img:nth-of-type(6){
+  position: relative; bottom: 48%;
+}
+.circle_L>img:nth-of-type(7){
+  position: relative; right: 40%; bottom: 46%;
+}
+
+.circle_S{
+  position: absolute;
+  transform-origin: center/center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32vw; height: 32vw;
+  border: 1px solid #eaeaea;
+  border-radius: 50%;
+  animation: small linear 15s infinite;
+}
+@keyframes small {
+  0%{transform: rotate(360deg);}
+  100%{transform: rotate(0deg);}
+}
+
+.circle_S img{
+  width: 3vw; height: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-origin: center/center;
+  animation: Simgs linear 15s infinite;
+}
+.circle_S>img:nth-of-type(1){
+  position: relative; left: 63%; top: 10%;
+}
+.circle_S>img:nth-of-type(2){
+  position: relative; right: 25%; top: 40%;
+}
+.circle_S>img:nth-of-type(3){
+  position: relative; bottom: 27%; right: 47%;
+}
+.circle_S>img:nth-of-type(4){
+  position: relative; bottom: 47%;
+}
+@keyframes Simgs {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+.tab{
+  position: relative; top: 100px;
+}
+.tab>img{
+  width: 150px;
+  cursor: pointer;
+}
+
+/* 스킬 모달창 */
+.skillModal{
+  z-index: 1100;
+  width: 78vw; height: 80vh;
+  position: absolute; left: 50%; top: 12vh;
+  transform: translateX(-50%);
+  background-color: #000;
+  border-radius: 10px;
+}
+.skillModal>ul{
+  position: absolute; left: 50%; top: 0;
+  transform: translateX(-50%);
+  width: 98%; height: 96%;
+  border: 1px solid #eaeaea;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.skillModal>ul>li{
+  list-style: none;
+  color: #fff;
+  line-height: 100px;
+}
+
+.skillModal img{
+  position: relative; top: 20px;
+  margin-right: 20px;
+  width: 50px; height: 50px;
+}
+
+.skillModal>.backBtn{
+  position: absolute; bottom: 5%; left: 50%;
+  transform: translateX(-50%);
+  background-color: #3b3b3b;
+  padding: 3px;
+  border-radius: 5px;
+}
+.backBtn>button{
+  background-color: transparent;
+  border: 1px solid #b2b2b2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'DungGeunMo';
+  font-size: 1.2rem;
+  color: #eaeaea;
+  cursor: pointer;
+}

@@ -1,0 +1,51 @@
+.pure_bg{
+  width: 100vw; height: 100vh;
+  overflow: hidden;
+}
+.pure_css{
+  width: 100vw;
+  position: absolute; top: 0;
+  color: #fff;
+  font-family: 'DungGeunMo';
+}
+.pure_css>h3{
+  font-size: 3vw;
+  margin-left: 100px;
+}
+.pure_css>ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.pure_css>ul>li{
+  font-size: 40px;
+  list-style: none;
+}
+
+.pure_css>ul>li>ul{
+  margin-top: 30px;
+}
+.pure_css>ul>li>ul>li{
+  list-style: none;
+  font-size: 20px;
+}
+
+
+
+.backBtn{
+  position: absolute; bottom: -15%; left: 50%;
+  transform: translateX(-50%);
+  background-color: #3b3b3b;
+  padding: 3px;
+  border-radius: 5px;
+}
+.backBtn button{
+  background-color: transparent;
+  border: 1px solid #b2b2b2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'DungGeunMo';
+  font-size: 1.2rem;
+  color: #eaeaea;
+  cursor: pointer;
+}
