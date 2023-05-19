@@ -6,6 +6,7 @@
 }
 .react_app{
   position: absolute; top: 0;
+  width: 100vw;
   color: #fff;
   font-family: 'DungGeunMo';
 }
@@ -22,11 +23,14 @@
   list-style: none;
   font-size: 40px;
   position: relative;
-  margin-bottom: 200px;
+  margin-bottom: 350px;
+  margin-top: 100px;
 }
 .react_app>ul>li>h4{
   display: inline-block;
 }
+
+
 
 .tools{
   display: inline-block;
@@ -44,20 +48,70 @@
 }
 
 
-.pj_viewer{
-  position: absolute; top: 150px;
-  float: right;
+.app_viewer{
+  position: absolute; top: 50px; right: 600px;
 }
-.pj_viewer .logo_img{
+.app_viewer .logo_img{
   z-index: -1;
-  position: absolute; top: -80px; left: -150px;
+  position: absolute; top: -80px; left: -110px;
   opacity: 0.7;
+  width: 150px;
 }
-.pj_viewer>video{
-  position: absolute; left: 0; top: 6px;
+.react_app>ul>li:last-of-type .logo_img{
+  position: absolute; left: -510px;
+}
+.app_viewer .mob_video{
+  z-index: -1;
+  position: absolute; left: 10px; top: 5px;
+  width: 200px;
+  border-radius: 20px;
+}
+.app_viewer .mob_mockup{
+  width: 215px; height: 380px;
+}
+.app_viewer .pc_video{
   z-index: 10;
+  position: absolute; left: -400px; top: 10px;
+  width: 800px;
+}
+.app_viewer .pc_mockup{
+  position: absolute; right: -400px;
+  width: 800px; height: 390px;
 }
 
-.pj_viewer .pc_mockup{
-  position: absolute;
+
+.backBtn3{
+  position: absolute; left: 50%; bottom: 70px;
+  transform: translateX(-50%);
+  background-color: #3b3b3b;
+  padding: 3px;
+  border-radius: 5px;
+}
+.backBtn3 button{
+  background-color: transparent;
+  border: 1px solid #b2b2b2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'DungGeunMo';
+  font-size: 1.2rem;
+  color: #eaeaea;
+  cursor: pointer;
+}
+
+.topBtn3{
+  position: absolute; bottom: 0; left: 50%;
+  transform: translateX(-50%);
+  background-color: #3b3b3b;
+  padding: 3px;
+  border-radius: 5px;
+}
+.topBtn3 button{
+  background-color: transparent;
+  border: 1px solid #b2b2b2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'DungGeunMo';
+  font-size: 1.2rem;
+  color: #eaeaea;
+  cursor: pointer;
 }

@@ -2,9 +2,16 @@ import React from 'react'
 import spaceship from '../img/among-us-spaceship.png'
 import myChar from '../img/outtro_char.png'
 import '../styles/contact.css'
-import Header from './Header'
 
 const Contact = () => {
+
+  const onClickTop = () => {
+    window.scroll({
+      behavior: 'smooth',
+      top: 0
+    })
+  }
+
   return (
     <div className='outtro'>
       <div className='out_title'>
@@ -25,7 +32,7 @@ const Contact = () => {
         </div>
       </div>
       <div className='topBtn'>
-        <button>TOP!</button>
+        <button onClick={onClickTop}>TOP!</button>
       </div>
     </div>
   )

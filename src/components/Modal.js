@@ -1,11 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/modal.css'
 import { Link } from 'react-router-dom';
 import robot from '../img/among-us-robot.png'
 import slime from '../img/among-us-slime.png'
 import taco from '../img/among-us-tako.png'
 
-const Modal = ({setModalOpen}) => {
+const Modal = ({modalOpen, setModalOpen}) => {
+
+  useEffect(() => {
+    const modal = document.querySelector(".modal")
+    if(modalOpen){
+      modal.classList.add("on");
+    } else{
+      modal.classList.remove("on");
+    }
+  },[])
+
 
   const onBackBtn = () => {
     setModalOpen(false);

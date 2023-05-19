@@ -18,6 +18,7 @@ const Main = () => {
     window.addEventListener("scroll", () => {
       let scll = window.scrollY;
       console.log(scll);
+
     })
 
 
@@ -29,6 +30,7 @@ const Main = () => {
     
     
   },[])
+
 
   
   return (

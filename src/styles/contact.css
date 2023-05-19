@@ -9,7 +9,7 @@
 .out_title>h2{
   display: inline-block;
   color: #fff;
-  font-size: 3vw;
+  font-size: 50px;
   font-family: 'DungGeunMo';
   margin: 0 3vw;
   padding-top: 20vh;
@@ -38,7 +38,7 @@
 
 .contact{
   text-align: center;
-  margin-top: 10vh;
+  margin-top: 50px;
 }
 .contact>.list{
   display: flex;
@@ -48,7 +48,7 @@
 .list span{
   color: #fff;
   font-family: 'DungGeunMo';
-  font-size: 2vw;
+  font-size: 30px;
   margin-top: 5vh;
 }
 .list span:nth-of-type(even){
@@ -64,14 +64,14 @@
   margin-top: 0;
 }
 
-.homeBtn{
-  position: absolute; bottom: 8%; left: 50%;
+.topBtn{
+  position: absolute; bottom: 0; left: 50%;
   transform: translateX(-50%);
   background-color: #3b3b3b;
   padding: 3px;
   border-radius: 5px;
 }
-.homeBtn button{
+.topBtn button{
   background-color: transparent;
   border: 1px solid #b2b2b2;
   padding: 10px 20px;
@@ -80,4 +80,18 @@
   font-size: 1.2rem;
   color: #eaeaea;
   cursor: pointer;
+}
+
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  .out_title>h2{
+    font-size: 30px;
+  }
+  .list span{
+    font-size: 25px;
+  }
+  .spaceship{
+    transform: scale(1.5) rotate(-30deg);
+  }
 }

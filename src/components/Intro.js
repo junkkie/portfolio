@@ -50,7 +50,6 @@ const Intro = () => {
       <div className='intro'>
           <h1>Front End / UI Developer</h1>
         <div className='contents'>
-          <div className='blur'></div>
           <div className='characters'>
             <img className='char1' src={mint} alt='민트 캐릭터' />
             <img className='char2' src={purple} alt='퍼플 캐릭터' />

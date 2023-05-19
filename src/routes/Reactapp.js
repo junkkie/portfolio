@@ -9,8 +9,21 @@ import kakao from '../img/kakao.png'
 import netflix from '../img/netflix.png'
 import '../styles/reactapp.css'
 import mob from '../img/mobile_mockup.png'
+import pc from '../img/pc_mockup.png'
+import { Link } from 'react-router-dom'
+
+import kakao_video from '../videos/kakao.mp4'
+import folix from '../videos/netflix.mp4'
 
 const Reactapp = () => {
+
+  const onClickTop = () => {
+    window.scroll({
+      behavior: 'smooth',
+      top: 0
+    })
+  }
+
   return (
     <>
       <div className='react_bg'>
@@ -35,11 +48,10 @@ const Reactapp = () => {
                 <li>map함수를 사용하여 유저 정보를 컴포넌트에 전달, 출력</li>
               </ul>
             </div>
-            <div className='pj_viewer'>
+            <div className='app_viewer'>
               <img className='logo_img' src={kakao} alt='카카오톡 로고 이미지' />
-              <video src='' />
-              {/* 비디오, mockup 첨부 */}
-              <img className='pc_mockup' src={mob} alt='목업 이미지' />
+              <video className='mob_video' src={kakao_video} loop autoPlay muted />
+              <img className='mob_mockup' src={mob} alt='목업 이미지' />
             </div>
           </li>
           <li>
@@ -57,14 +69,19 @@ const Reactapp = () => {
                 <li>styled components를 이용하여 디자인</li>
               </ul>
             </div>
-            <div className='pj_viewer'>
+            <div className='app_viewer'>
               <img className='logo_img' src={netflix} alt='넷플릭스 로고 이미지' />
-              <video src='' />
-              {/* 비디오, mockup 첨부 */}
-              <img className='pc_mockup' src={mob} alt='목업 이미지' />
+              <video className='pc_video' src={folix} loop autoPlay muted />
+              <img className='pc_mockup' src={pc} alt='목업 이미지' />
             </div>
           </li>
         </ul>
+        <div className='backBtn3'>
+          <Link to='/'><button>Click to home</button></Link>
+        </div>
+        <div className='topBtn3'>
+          <button onClick={onClickTop}>TOP!</button>
+        </div>
       </div>
     </>
 

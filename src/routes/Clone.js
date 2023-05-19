@@ -1,17 +1,40 @@
 import Bg from 'components/Bg'
 import Header from 'components/Header'
 import React from 'react'
+import { Link } from 'react-router-dom';
+import '../styles/clone.css'
+
 import html from '../img/html5.png'
 import css from '../img/css3.png'
 import js from '../img/js.png'
+
+import pc from '../img/pc_mockup.png'
+import tab from '../img/tablet_mockup.png'
+import mob from '../img/mobile_mockup.png'
+
 import samsung from '../img/samsung.png'
 import cjone from '../img/cjone.png'
-import '../styles/clone.css'
-import pc from '../img/pc_mockup.png'
+
+import cnt from '../videos/samsungCNT.mp4'
+import cnt_tab from '../img/cnt_tab.png'
+import cnt_mob from '../img/cnt_mob.png'
+
 import ssem from '../videos/samsungEM.mp4'
+
 import cj from '../videos/cjone.mp4'
+import cj_tab from '../img/cjone_tab.png'
+import cj_mob from '../img/cjone_mob.png'
+
 
 const Clone = () => {
+
+  const onClickTop = () => {
+    window.scroll({
+      behavior: 'smooth',
+      top: 0
+    })
+  }
+
   return (
     <>
       <div className='clone_bg'>
@@ -28,7 +51,6 @@ const Clone = () => {
               <img src={css} alt='CSS3 로고 이미지' />
               <img src={js} alt='JavsScript 로고 이미지' />
             </div>
-            <a href='https://junkkie.github.io/samsungsem_2023/'>github link</a>
             <div className='pj_info'>
               <ul>
                 <li>기여도: 95%</li>
@@ -45,8 +67,10 @@ const Clone = () => {
             </div>
             <div className='pj_viewer'>
               <img className='logo_img' src={samsung} alt='삼성 로고' />
-              <video src={ssem} loop autoPlay />
-              <img className='pc_mockup' src={pc} alt='목업 이미지' />
+              <video className='pc_video' src={ssem} loop autoPlay muted />
+              <img className='pc_mockup' src={pc} alt='PC 목업 이미지' />
+              <a href='https://junkkie.github.io/samsungsem_2023/'>github link</a>
+              <span className='test'>웹 접근성 검사 결과</span>
             </div>
           </li>
 
@@ -57,7 +81,6 @@ const Clone = () => {
               <img src={css} alt='CSS3 로고 이미지' />
               <img src={js} alt='JavsScript 로고 이미지' />
             </div>
-            <a href='https://junkkie.github.io/CJONE_2023/'>github link</a>
             <div className='pj_info'>
               <ul>
                 <li>기여도: 80%</li>
@@ -75,8 +98,14 @@ const Clone = () => {
             </div>
             <div className='pj_viewer'>
               <img className='logo_img' src={cjone} alt='씨제이원 로고' />
-              <video src={cj} loop autoPlay />
+              <video className='pc_video' src={cj} loop autoPlay muted />
               <img className='pc_mockup' src={pc} alt='목업 이미지' />
+              <img className='tab_img' src={cj_tab} alt='tablet 캡처 이미지' />
+              <img className='tab_mockup' src={tab} alt='tablet 목업 이미지' />
+              <img className='mob_img' src={cj_mob} alt='mobile 캡처 이미지' />
+              <img className='mob_mockup' src={mob} alt='mobile 목업 이미지' />
+              <a href='https://junkkie.github.io/CJONE_2023/'>github link</a>
+              <span className='test'>웹 접근성 검사 결과</span>
             </div>
           </li>
 
@@ -87,7 +116,6 @@ const Clone = () => {
               <img src={css} alt='CSS3 로고 이미지' />
               <img src={js} alt='JavsScript 로고 이미지' />
             </div>
-            <a href='https://junkkie.github.io/samsungcnt_2023/'>github link</a>
             <div className='pj_info'>
               <ul>
                 <li>기여도: 100%</li>
@@ -104,12 +132,23 @@ const Clone = () => {
             </div>
             <div className='pj_viewer'>
               <img className='logo_img' src={samsung} alt='삼성 로고' />
-              <video src='' />
-              {/* 비디오, mockup 첨부 */}
+              <video className='pc_video' src={cnt} loop autoPlay muted/>
               <img className='pc_mockup' src={pc} alt='목업 이미지' />
+              <img className='tab_img' src={cnt_tab} alt='tablet 캡처 이미지' />
+              <img className='tab_mockup' src={tab} alt='tablet 목업 이미지' />
+              <img className='mob_img' src={cnt_mob} alt='mobile 캡처 이미지' />
+              <img className='mob_mockup' src={mob} alt='mobile 목업 이미지' />
+              <a href='https://junkkie.github.io/samsungcnt_2023/'>github link</a>
+              <span className='test'>웹 접근성 검사 결과</span>
             </div>
           </li>
         </ul>
+        <div className='topBtn2'>
+          <button onClick={onClickTop}>TOP!</button>
+        </div>
+        <div div className='backBtn2'>
+          <Link to='/'><button>Click to home</button></Link>
+        </div>
       </div>
     </>
 
