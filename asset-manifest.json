@@ -1,12 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2bde3803.css",
-    "main.js": "/portfolio/static/js/main.702808bb.js",
-    "static/media/cjone.mp4": "/portfolio/static/media/cjone.46866f025eb490f7e9c7.mp4",
+    "main.css": "/portfolio/static/css/main.b694f74a.css",
+    "main.js": "/portfolio/static/js/main.4878b9ab.js",
+    "static/media/cjone.mp4": "/portfolio/static/media/cjone.b3bdd4f98128c1deea74.mp4",
+    "static/media/netflix.mp4": "/portfolio/static/media/netflix.d0302507da5c8fec6df6.mp4",
+    "static/media/samsungCNT.mp4": "/portfolio/static/media/samsungCNT.f17f00b62a7275d40a9c.mp4",
     "static/media/samsungEM.mp4": "/portfolio/static/media/samsungEM.a1e0a96bfa883fc7c328.mp4",
+    "static/media/cnt_tab.png": "/portfolio/static/media/cnt_tab.802c555258944fafe5cc.png",
+    "static/media/kakao.mp4": "/portfolio/static/media/kakao.44872a1e64ac70a56baa.mp4",
     "static/media/pure_css_2.mp4": "/portfolio/static/media/pure_css_2.03d95c31f2404a21767e.mp4",
+    "static/media/cnt_mob.png": "/portfolio/static/media/cnt_mob.a91380ab9bd8c45d5e96.png",
     "static/media/netflix.png": "/portfolio/static/media/netflix.c08b072741d40a3c7987.png",
+    "static/media/cjone_tab.png": "/portfolio/static/media/cjone_tab.7a823aa4be29f7332f22.png",
     "static/media/firebase.png": "/portfolio/static/media/firebase.5aa7cf22cd45ec6bbec2.png",
+    "static/media/cjone_mob.png": "/portfolio/static/media/cjone_mob.aa9266e308f251f72de1.png",
     "static/media/among-us-robot.png": "/portfolio/static/media/among-us-robot.ca97c2b5c68d17a3ff76.png",
     "static/media/among-us-pink.png": "/portfolio/static/media/among-us-pink.e9c67b55dc95f6174d0c.png",
     "static/media/among-us-slime.png": "/portfolio/static/media/among-us-slime.8d15eccb6af678cd0a2e.png",
@@ -30,11 +37,11 @@
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/cursor.cur": "/portfolio/static/media/cursor.e28237360b25854af677.cur",
     "index.html": "/portfolio/index.html",
-    "main.2bde3803.css.map": "/portfolio/static/css/main.2bde3803.css.map",
-    "main.702808bb.js.map": "/portfolio/static/js/main.702808bb.js.map"
+    "main.b694f74a.css.map": "/portfolio/static/css/main.b694f74a.css.map",
+    "main.4878b9ab.js.map": "/portfolio/static/js/main.4878b9ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bde3803.css",
-    "static/js/main.702808bb.js"
+    "static/css/main.b694f74a.css",
+    "static/js/main.4878b9ab.js"
   ]
 }
