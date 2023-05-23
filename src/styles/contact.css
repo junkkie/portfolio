@@ -67,19 +67,31 @@
 .topBtn{
   position: absolute; bottom: 0; left: 50%;
   transform: translateX(-50%);
-  background-color: #3b3b3b;
+  background-color: transparent;
   padding: 3px;
   border-radius: 5px;
 }
 .topBtn button{
-  background-color: transparent;
-  border: 1px solid #b2b2b2;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-family: 'DungGeunMo';
-  font-size: 1.2rem;
-  color: #eaeaea;
+  text-align: center;
+  display: inline-block;
+  margin:5px;
+  padding: 10px 5px 10px 10px ;
+  background-color: lightgray;
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: gray;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
   cursor: pointer;
+  box-shadow: 0 .2em gray;
+  font-family: 'DungGeunMo';
+  font-size: 20px;
+}
+.topBtn button:active{
+  box-shadow: none;
+  position: relative;
+  top: .2em;
 }
 
 

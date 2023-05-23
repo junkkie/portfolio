@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import '../styles/header.css'
 import Modal from './Modal';
 import side from '../img/sidebtn.png'
@@ -9,17 +9,7 @@ const Header = () => {
   const onModalOpen = () => {
     setModalOpen(true);
   }
-  useEffect(() => {/////////////////////////////////////////
-    const sideBtn = document.querySelector(".sideBtn");
-    sideBtn.addEventListener("click", (e) => {
-      e.preventDefault();
-      if(modalOpen){
-        setModalOpen(false);
-      }
-    })
-  },[])
 
-  
   return (
     <>
       <div className='header'>

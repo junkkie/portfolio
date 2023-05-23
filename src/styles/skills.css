@@ -121,6 +121,13 @@
   background-color: #000;
   border-radius: 10px;
 }
+.skillModal.active{
+  animation: up 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+}
+@keyframes up {
+  0%{margin-top: 500px; opacity: 0;}
+  100%{margin-top: 0; opacity: 1;}
+}
 .skillModal>h4{
   font-size: 30px;
   position: absolute; top: 30px; left: 50%;
@@ -162,7 +169,7 @@
 .skillModal>.backBtn{
   position: absolute; bottom: 5%; left: 50%;
   transform: translateX(-50%);
-  background-color: #3b3b3b;
+  background-color: transparent;
   padding: 3px;
   border-radius: 5px;
 }

@@ -9,12 +9,14 @@ const Modal = ({modalOpen, setModalOpen}) => {
 
   useEffect(() => {
     const modal = document.querySelector(".modal")
-    if(modalOpen){
-      modal.classList.add("on");
-    } else{
-      modal.classList.remove("on");
+    if(modal){
+      if(modalOpen){
+        modal.classList.add("active")
+      } else{
+        modal.classList.remove("active")
+      }
     }
-  },[])
+  },[modalOpen])
 
 
   const onBackBtn = () => {

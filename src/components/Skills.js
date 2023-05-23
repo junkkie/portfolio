@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../styles/skills.css'
 import html from '../img/html5.png'
 import css from '../img/css3.png'
@@ -24,6 +24,17 @@ const Skills = () => {
   const offSkillModal = () => {
     setOnskills(false);
   }
+
+  useEffect(() => {
+    const skillmodal = document.querySelector(".skillModal")
+    if(skillmodal){
+      if(onSkillModal){
+        skillmodal.classList.add("active")
+      } else{
+        skillmodal.classList.remove("active")
+      }
+    }
+  },[onskills])
 
   return (
     <>
