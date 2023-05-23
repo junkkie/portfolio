@@ -282,7 +282,7 @@
 
 /* 메인 */
 .main{
-  width: 100vw; height: 400vh;
+  width: 100vw; height: 500vh;
   display: flex;
   flex-direction: column;
 }
@@ -290,7 +290,7 @@
 
 .background{
   position: absolute;
-  width: 100vw; height: 400vh;
+  width: 100vw; height: 500vh;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -310,4 +310,10 @@
   font-size: 1.2rem;
   color: #eaeaea;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  #hourglass{
+    left: 54%;
+  }
 }

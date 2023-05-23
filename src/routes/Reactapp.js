@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import react from '../img/react.png'
 import sass from '../img/sass.png'
 import styled from '../img/styled.png'
@@ -10,10 +10,10 @@ import netflix from '../img/netflix.png'
 import '../styles/reactapp.css'
 import mob from '../img/mobile_mockup.png'
 import pc from '../img/pc_mockup.png'
-import { Link } from 'react-router-dom'
 
 import kakao_video from '../videos/kakao.mp4'
 import folix from '../videos/netflix.mp4'
+import { useNavigate } from 'react-router-dom'
 
 const Reactapp = () => {
 
@@ -22,6 +22,16 @@ const Reactapp = () => {
       behavior: 'smooth',
       top: 0
     })
+  }
+
+  useEffect(() => {
+    window.scrollTo(0,0)
+  },[])
+
+  
+  const onBackBtn = () => {
+    const navigate = useNavigate;
+    navigate(-1);
   }
 
   return (
@@ -52,6 +62,8 @@ const Reactapp = () => {
               <img className='logo_img' src={kakao} alt='카카오톡 로고 이미지' />
               <video className='mob_video' src={kakao_video} loop autoPlay muted />
               <img className='mob_mockup' src={mob} alt='목업 이미지' />
+              <a href='https://junkkie.github.io/kakao_2023/'>Site Link</a>
+              <a href='https://github.com/junkkie/kakao_2023'>Github Link</a>
             </div>
           </li>
           <li>
@@ -73,11 +85,13 @@ const Reactapp = () => {
               <img className='logo_img' src={netflix} alt='넷플릭스 로고 이미지' />
               <video className='pc_video' src={folix} loop autoPlay muted />
               <img className='pc_mockup' src={pc} alt='목업 이미지' />
+              <a href='https://junkkie.github.io/netfolix_app/'>Site Link</a>
+              <a href='https://github.com/junkkie/netfolix_app'>Github Link</a>
             </div>
           </li>
         </ul>
         <div className='backBtn3'>
-          <Link to='/'><button>Click to home</button></Link>
+          <button onClick={onBackBtn}>Click to home</button>
         </div>
         <div className='topBtn3'>
           <button onClick={onClickTop}>TOP!</button>

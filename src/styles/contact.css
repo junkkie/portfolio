@@ -1,6 +1,7 @@
 .outtro{
   position: relative;
   width: 100vw; height: 90vh;
+  margin-top: 5vh;
   overflow: hidden;
 }
 .out_title{
@@ -65,7 +66,7 @@
 }
 
 .topBtn{
-  position: absolute; bottom: 0; left: 50%;
+  position: absolute; bottom: 30px; left: 50%;
   transform: translateX(-50%);
   background-color: transparent;
   padding: 3px;

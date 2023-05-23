@@ -5,11 +5,14 @@ import Skills from './../components/Skills';
 import Bg from '../components/Bg'
 import Home from '../components/Home';
 import Contact from 'components/Contact';
+import Projects from '../components/Projects';
 
 const Main = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    window.scrollTo(0,0)
+    
     document.addEventListener('DOMContentLoaded', () => {
       let root = document.querySelector('.body');
       root.style.setProperty(`--window-width`, window.screen.width + 'px');
@@ -17,7 +20,7 @@ const Main = () => {
 
     window.addEventListener("scroll", () => {
       let scll = window.scrollY;
-      console.log(scll);
+      // console.log(scll);
 
     })
 
@@ -25,9 +28,12 @@ const Main = () => {
     setTimeout(() => {
       setLoading(false);
       const body = document.querySelector(".body")
-      body.classList.add("on")
-    }, 3000)
-    
+      if(body){
+        body.classList.add("on")
+      }
+      
+    }, 2500)
+
     
   },[])
 
@@ -60,6 +66,7 @@ const Main = () => {
         <Intro />
         <Home />
         <Skills />
+        <Projects />
         <Contact />
       </div>
     </>

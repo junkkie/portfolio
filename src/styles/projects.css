@@ -1,31 +1,25 @@
 .projects{
   position: relative;
-  height: 100vh;
+  width: 100vw; height: 100vh;
   overflow: hidden;
   color: #fff;
   font-family: 'DungGeunMo';
 }
 .projects>h2{
-  font-size: 3vw;
+  font-size: 50px;
   margin: 0;
-  padding-top: 10vh;
   text-align: center;
+  margin-top: 25vh;
 }
 .projects>ul{
-  position: absolute; left: 50%; top: 20vh;
-  transform: translateX(-50%);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-top: 150px;
 }
 .projects>ul>li{
   list-style: none;
-}
-.projects>ul>li:nth-of-type(1){
-  position: absolute; left: -45vw; top: 0;
-}
-.projects>ul>li:nth-of-type(2){
-  position: absolute; left: 15vw; top: 10vh;
-}
-.projects>ul>li:nth-of-type(3){
-  position: absolute;  left: -20vw; top: 35vh;
 }
 
 .projects>ul>li>a{
@@ -39,39 +33,35 @@
   align-items: center;
 }
 .projects>ul>li>a>img{
- width: 7vw; height: 9vw;
+ width: 140px; height: 160px;
 }
 .projects>ul>li>a>span{
-  font-size: 1.5vw;
-}
-
-
-.homeBtn{
-  position: absolute; bottom: 0; left: 50%;
-  transform: translateX(-50%);
-  background-color: transparent;
-  padding: 3px;
-  border-radius: 5px;
-}
-.homeBtn button{
+  display: block;
   text-align: center;
-  display: inline-block;
-  margin:5px;
-  padding: 10px 5px 10px 10px ;
-  background-color: lightgray;
-  text-shadow: -1px -1px black, 1px 1px white;
-  color: gray;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -o-border-radius: 7px;
-  border-radius: 7px;
-  cursor: pointer;
-  box-shadow: 0 .2em gray;
-  font-family: 'DungGeunMo';
+  margin-top: 20px;
   font-size: 20px;
 }
-.homeBtn button:active{
-  box-shadow: none;
-  position: relative;
-  top: .2em;
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  .projects>h2{
+    font-size: 30px;
+    padding-top: 10vw;
+  }
+  .projects>ul{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .projects>ul>li{
+    margin-bottom: 30px;
+  }
+  .projects>ul>li>a>img{
+    width: 100px; height: 120px;
+   }
+  .projects>ul>li>a>span{
+    width: 230px;
+    text-align: center;
+    font-size: 15px;
+  }
 }

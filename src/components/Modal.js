@@ -1,11 +1,13 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import '../styles/modal.css'
+import useOnClickOutside from 'hooks/useOnClickOutside';
 import { Link } from 'react-router-dom';
-import robot from '../img/among-us-robot.png'
-import slime from '../img/among-us-slime.png'
-import taco from '../img/among-us-tako.png'
 
 const Modal = ({modalOpen, setModalOpen}) => {
+
+  const ref = useRef();
+
+  useOnClickOutside(ref, () => {setModalOpen(false)});
 
   useEffect(() => {
     const modal = document.querySelector(".modal")
@@ -16,38 +18,63 @@ const Modal = ({modalOpen, setModalOpen}) => {
         modal.classList.remove("active")
       }
     }
-  },[modalOpen])
+  },[])
 
 
   const onBackBtn = () => {
     setModalOpen(false);
   }
 
+  const windowH = window.innerHeight;
+  console.log(windowH)
+
+  const on1page = () => {
+    window.scrollTo({
+      top: 927,
+      behavior: 'smooth'
+    })
+    setModalOpen(false);
+  }
+  const on2page = () => {
+    window.scrollTo({
+      top: 927*2,
+      behavior: 'smooth'
+    })
+    setModalOpen(false);
+  }
+  const on3page = () => {
+    window.scrollTo({
+      top: 927*3,
+      behavior: 'smooth'
+    })
+    setModalOpen(false);
+  }
+  const on4page = () => {
+    window.scrollTo({
+      top: 927*4,
+      behavior: 'smooth'
+    })
+    setModalOpen(false);
+  }
+
   return (
-    <div className='modal'>
-      <div className='modal_inner'>
-        <div className='projects'>
-          <h2>PROJECTS</h2>
+    <div className='wrapper'>
+      <div className='modal' ref={ref}>
+        <div className='modal_inner'>
+          <h4>MENU</h4>
           <ul>
-            <li><Link to='/pure_css'>
-              <img src={robot} alt='로봇 캐릭터 이미지' />
-              <span>Pure CSS 프로젝트</span>
-            </Link></li>
-            <li><Link to='/clone_site'>
-              <img src={slime} alt='슬라임 캐릭터 이미지' />
-              <span>기업사이트 클론코딩 프로젝트</span>  
-            </Link></li>
-            <li><Link to='/react_app'>
-              <img src={taco} alt='문어 캐릭터 이미지' />
-              <span>리액트 웹앱 프로젝트</span>  
-            </Link></li>
+            <li onClick={on1page}><Link to='/'>INFO</Link></li>
+            <li onClick={on2page}><Link to='/'>SKILLS</Link></li>
+            <li onClick={on3page}><Link to='/'>PROJECTS</Link></li>
+            <li onClick={on4page}><Link to='/'>CONTACT</Link></li>
           </ul>
-          <div className='homeBtn'>
-            <button onClick={onBackBtn}>Click to back</button>
-          </div>
+        </div>
+        <div className='homeBtn'>
+          <button onClick={onBackBtn}>close</button>
         </div>
       </div>
     </div>
+
   )
 }
 

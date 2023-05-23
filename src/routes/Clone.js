@@ -1,6 +1,6 @@
 import Bg from 'components/Bg'
 import Header from 'components/Header'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import '../styles/clone.css'
 
@@ -34,6 +34,10 @@ const Clone = () => {
       top: 0
     })
   }
+
+  useEffect(() => {
+    window.scrollTo(0,0)
+  },[])
 
   return (
     <>
@@ -69,8 +73,8 @@ const Clone = () => {
               <img className='logo_img' src={samsung} alt='삼성 로고' />
               <video className='pc_video' src={ssem} loop autoPlay muted />
               <img className='pc_mockup' src={pc} alt='PC 목업 이미지' />
-              <a href='https://junkkie.github.io/samsungsem_2023/'>github link</a>
-              <span className='test'>웹 접근성 검사 결과</span>
+              <a href='https://github.com/junkkie/samsungsem_2023'>github link</a>
+              <a href='https://junkkie.github.io/samsungsem_2023/' className='test'>site link</a>
             </div>
           </li>
 
@@ -104,8 +108,8 @@ const Clone = () => {
               <img className='tab_mockup' src={tab} alt='tablet 목업 이미지' />
               <img className='mob_img' src={cj_mob} alt='mobile 캡처 이미지' />
               <img className='mob_mockup' src={mob} alt='mobile 목업 이미지' />
-              <a href='https://junkkie.github.io/CJONE_2023/'>github link</a>
-              <span className='test'>웹 접근성 검사 결과</span>
+              <a href='https://github.com/junkkie/CJONE_2023'>github link</a>
+              <a href='https://junkkie.github.io/CJONE_2023/' className='test'>site link</a>
             </div>
           </li>
 
@@ -138,8 +142,8 @@ const Clone = () => {
               <img className='tab_mockup' src={tab} alt='tablet 목업 이미지' />
               <img className='mob_img' src={cnt_mob} alt='mobile 캡처 이미지' />
               <img className='mob_mockup' src={mob} alt='mobile 목업 이미지' />
-              <a href='https://junkkie.github.io/samsungcnt_2023/'>github link</a>
-              <span className='test'>웹 접근성 검사 결과</span>
+              <a href='https://github.com/junkkie/samsungcnt_2023'>github link</a>
+              <a href='https://junkkie.github.io/samsungcnt_2023/' className='test'>site link</a>
             </div>
           </li>
         </ul>

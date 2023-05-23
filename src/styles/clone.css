@@ -47,7 +47,7 @@
 }
 
 .pj_viewer{
-  position: absolute; top: 200px; left: 900px;
+  position: absolute; top: 200px; left: 800px;
 }
 .pj_viewer .logo_img{
   z-index: -1;
@@ -57,54 +57,65 @@
 }
 .pj_viewer .pc_video{
   position: absolute; left: 0; top: 6px;
-  width: 500px;
+  width: 800px;
   z-index: 8;
 }
 .pj_viewer>a{
   display: block;
-  position: absolute; bottom: -320px; right: -280px;
+  width: 100px;
+  text-align: center;
+  position: absolute; bottom: -420px; right: -210px;
   font-size: 20px;
   text-decoration: none;
   color: #fff;
   letter-spacing: -1.5px;
+  border: 1px solid #fff;
+  border-radius: 10px;
 }
 .pj_viewer>.test{
   display: block;
-  width: 200px;
-  position: absolute; bottom: -320px; right: -200px;
-  font-size: 18px;
+  width: 100px;
+  position: absolute; bottom: -420px; right: -100px;
+  font-size: 20px;
   letter-spacing: -1.5px;
   cursor: pointer;
+  text-align: center;
 }
 
 .pj_viewer .pc_mockup{
   position: absolute;
-  width: 500px; height: 281px;
+  width: 800px; height: 281px;
 }
 .pj_viewer .tab_mockup{
   z-index: 10;
-  position: absolute; left: 480px; top: 48px;
+  position: absolute; left: 580px; top: 220px;
   width: 200px; height: 235px;
 }
 .tab_img{
   z-index: 9;
-  position: absolute; left: 488px; top: 57px;
+  position: absolute; left: 588px; top: 229px;
   width: 190px;
   border-radius: 10px;
 }
 .pj_viewer .mob_mockup{
   z-index: 20;
-  position: absolute; left: 650px; top: 70px;
+  position: absolute; left: 750px; top: 240px;
   width: 120px; height: 215px;
 }
 .mob_img{
   z-index: 19;
-  position: absolute; left: 655px; top: 73px;
+  position: absolute; left: 755px; top: 243px;
   width: 110px;
   border-radius: 10px;
 }
-.pj_viewer:nth-of-type(2) .pc_mockup{
-  height: 281px;
+.clone_site>ul>li:nth-of-type(2)>.pj_viewer{
+  margin-left: 50px;
+}
+.clone_site>ul>li:nth-of-type(2)>.pj_viewer>.pc_mockup{
+ width: 680px; height: 380px;
+}
+.clone_site>ul>li:nth-of-type(2)>.pj_viewer>video{
+ width: 680px;
 }
 
 

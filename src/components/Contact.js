@@ -2,6 +2,7 @@ import React from 'react'
 import spaceship from '../img/among-us-spaceship.png'
 import myChar from '../img/outtro_char.png'
 import '../styles/contact.css'
+import Header from './Header'
 
 const Contact = () => {
 
@@ -14,6 +15,7 @@ const Contact = () => {
 
   return (
     <div className='outtro'>
+      <Header />
       <div className='out_title'>
         <img className='spaceship' src={spaceship} alt='우주선 이미지' />
         <h2>Contact Me!</h2>
