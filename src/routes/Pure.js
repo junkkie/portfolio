@@ -24,7 +24,6 @@ const Pure = () => {
               <li>기여도: 100%</li>
               <li>CSS3를 이용한 산리오 캐릭터 애니메이션 제작</li>
               <li>keyframes로 mouse over 시 애니메이션을 표현</li>
-              <li>웹폰트, 하트로 캐릭터가 가지고 있는 이미지 극대화</li>
             </ul>
           </li>
           <li>

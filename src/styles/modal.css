@@ -1,10 +1,22 @@
+.wrapper{
+  width: 100vw; height: 100vh;
+  z-index: 10000;
+  font-family: 'DungGeunMo';
+}
 .modal{
-  z-index: 1100;
   width: 78vw; height: 80vh;
   position: absolute; left: 50%; top: 12vh;
   transform: translateX(-50%);
   background-color: #000;
   border-radius: 10px;
+  z-index: 10000;
+}
+.modal.active{
+  animation: up 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+}
+@keyframes up {
+  0%{top: 100vh; opacity: 0;}
+  100%{top: 12vh; opacity: 1;}
 }
 .modal_inner{
   position: absolute; left: 50%; top: 4%;
@@ -12,60 +24,64 @@
   width: 96%; height: 92%;
   border: 1px solid #eaeaea;
 }
-.projects{
-  position: relative;
-  height: 100%;
-  overflow: hidden;
-  color: #fff;
-  font-family: 'DungGeunMo';
-}
-.projects>h2{
-  font-size: 3vw;
-  margin: 0;
-  padding-top: 10vh;
+.modal_inner>h4{
+  font-size: 50px;
+  margin: 50px 0;
   text-align: center;
 }
-.projects>ul{
-  position: absolute; left: 50%; top: 20vh;
-  transform: translateX(-50%);
-  display: flex;
-}
-.projects>ul>li{
-  list-style: none;
-}
-
-.projects>ul>li>a{
-  display: block;
-  width: 22vw;
-  text-decoration: none;
-  color: #fff;
+.modal_inner>ul{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.projects>ul>li>a>img{
- width: 7vw; height: 9vw;
+.modal_inner>ul>li{
+  margin-left: -40px;
+  list-style: none;
+  color: #fff;
+  font-size: 35px;
+  margin-top: 30px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
 }
-.projects>ul>li>a>span{
-  font-size: 1.5vw;
+.modal_inner>ul>li>a{
+  text-decoration: none;
+  color: #fff;
 }
-
 
 .homeBtn{
   position: absolute; bottom: 8%; left: 50%;
   transform: translateX(-50%);
-  background-color: #3b3b3b;
   padding: 3px;
   border-radius: 5px;
 }
 .homeBtn button{
-  background-color: transparent;
-  border: 1px solid #b2b2b2;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-family: 'DungGeunMo';
-  font-size: 1.2rem;
-  color: #eaeaea;
+  text-align: center;
+  display: inline-block;
+  margin:5px;
+  padding: 10px 5px 10px 10px ;
+  background-color: lightgray;
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: gray;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
   cursor: pointer;
+  box-shadow: 0 .2em gray;
+  font-family: 'DungGeunMo';
+  font-size: 20px;
+}
+.homeBtn button:active{
+  box-shadow: none;
+  position: relative;
+  top: .2em;
+}
+
+@media screen and (max-width: 768px) {
+
+  .homeBtn{
+  }
 }

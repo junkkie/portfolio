@@ -82,3 +82,9 @@
   color: #eaeaea;
   cursor: pointer;
 }
+
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  
+}

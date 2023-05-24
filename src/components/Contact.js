@@ -5,8 +5,17 @@ import '../styles/contact.css'
 import Header from './Header'
 
 const Contact = () => {
+
+  const onClickTop = () => {
+    window.scroll({
+      behavior: 'smooth',
+      top: 0
+    })
+  }
+
   return (
     <div className='outtro'>
+      <Header />
       <div className='out_title'>
         <img className='spaceship' src={spaceship} alt='우주선 이미지' />
         <h2>Contact Me!</h2>
@@ -25,7 +34,7 @@ const Contact = () => {
         </div>
       </div>
       <div className='topBtn'>
-        <button>TOP!</button>
+        <button onClick={onClickTop}>TOP!</button>
       </div>
     </div>
   )

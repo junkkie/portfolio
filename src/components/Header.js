@@ -10,14 +10,13 @@ const Header = () => {
     setModalOpen(true);
   }
 
-  
   return (
     <>
       <div className='header'>
         <img className='sideBtn' onClick={onModalOpen} src={side} alt='픽셀 외계인 이미지' />
       </div>
       {modalOpen && (
-        <Modal setModalOpen={setModalOpen} />
+        <Modal modalOpen={modalOpen} setModalOpen={setModalOpen} />
       )}
     </>
 

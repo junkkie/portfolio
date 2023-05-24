@@ -8,7 +8,7 @@ const Bg = () => {
     var $ = c.getContext("2d");
     
     var w = (c.width = window.innerWidth);
-    var h = (c.height = window.innerHeight * 4);
+    var h = (c.height = window.innerHeight * 5);
     
     var arr = [];
     var u = 0;
@@ -149,7 +149,7 @@ const Bg = () => {
       "resize",
       function (e) {
         c.width = w = window.innerWidth;
-        c.height = h = window.innerHeight * 4;
+        c.height = h = window.innerHeight * 5;
       },
       false
     );

@@ -20,8 +20,12 @@
 .pure_css>ul>li{
   font-size: 40px;
   list-style: none;
+  line-height: 30px;
 }
-
+.pure_css>ul>li>h4{
+  font-size: 2.5vw;
+  margin: 0;
+}
 .pure_css>ul>li>ul{
   margin-top: 30px;
 }
@@ -29,23 +33,118 @@
   list-style: none;
   font-size: 20px;
 }
-
+.pure_css video{
+  transform: scale(0.8);
+}
 
 
 .backBtn{
-  position: absolute; bottom: -15%; left: 50%;
+  position: absolute; bottom: -200px; left: 50%;
   transform: translateX(-50%);
-  background-color: #3b3b3b;
+  background-color: transparent;
   padding: 3px;
   border-radius: 5px;
 }
 .backBtn button{
-  background-color: transparent;
-  border: 1px solid #b2b2b2;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-family: 'DungGeunMo';
-  font-size: 1.2rem;
-  color: #eaeaea;
+  text-align: center;
+  display: inline-block;
+  margin:5px;
+  padding: 10px 5px 10px 10px ;
+  background-color: lightgray;
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: gray;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
   cursor: pointer;
+  box-shadow: 0 .2em gray;
+  font-family: 'DungGeunMo';
+  font-size: 20px;
+}
+.backBtn button:active{
+  box-shadow: none;
+  position: relative;
+  top: .2em;
+}
+
+/* tablet */
+@media screen and (min-width:769px) and (max-width: 1024px) {
+  .pure_bg{
+    height: 200vh;
+  }
+  .pure_css>h3{
+    font-size: 4vw;
+    margin: 0;
+    margin-top: 45px;
+    margin-left: 50px;
+  }
+  .pure_css>ul{
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .pure_css>ul>li{
+    width: 100vw;
+    padding-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .pure_css>ul>li>ul{
+    margin-left: -40px;
+  }
+  .pure_css video{
+    margin-left: -50px;
+  }
+  .pure_css>ul>li:nth-of-type(2)>video{
+    margin-left: -80px;
+  }
+  .backBtn{
+    bottom: -100px;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  .pure_bg{
+    height: 200vh;
+  }
+  .pure_css>h3{
+    font-size: 4vw;
+    margin: 0;
+    margin-top: 45px;
+    margin-left: 50px;
+  }
+  .pure_css>ul{
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .pure_css>ul>li{
+    width: 100vw;
+    padding-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+  .pure_css>ul>li>h4{
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  .pure_css video{
+    transform: scale(0.6);
+    margin-left: -70px;
+  }
+  .pure_css>ul>li:nth-of-type(2)>video{
+    margin-left: -220px;
+    transform: scale(0.4);
+  }
+  .pure_css>ul>li>ul{
+    margin-top: -30px;
+    width: 72vw;
+  }
+  .pure_css>ul>li>ul>li{
+    margin-left: -10px;
+    font-size: 17px;
+  }
+  .backBtn{
+    bottom: -100px;
+  }
 }

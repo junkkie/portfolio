@@ -41,7 +41,7 @@ h1{
   color: #fff;
   opacity: 0;
   letter-spacing: 3px;
-  font-size: 3vw;
+  font-size: 50px;
   display: inline-block;
   text-shadow: 0px 10px 10px #9351d6, 0px 10px 20px #f052b1;
   transition: all .5s ease-in .5s;
@@ -49,10 +49,22 @@ h1{
 h1.on{
   opacity: 1;
 }
+.myName{
+  font-size: 70px;
+  text-align: center;
+  text-shadow: 0px 10px 10px #9351d6, 0px 10px 20px #f052b1;
+  animation: blink 0.8s ease-in-out infinite alternate ;
+  animation-delay: 3.5s;
+  opacity: 0;
+}
+@keyframes blink {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
 
 .characters{
   z-index: 10;
-  position: relative; left: 50vw; top: 20vh;
+  position: relative; left: 50vw; top: 15vh;
   justify-self: center;
   width: 440px;
   align-items: center;
@@ -135,4 +147,14 @@ h1.on{
     margin-top: 24px;
     opacity: 0;
   }
+}
+
+
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  h1{
+    font-size: 30px;
+  }
+
 }

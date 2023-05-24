@@ -1,6 +1,7 @@
 .outtro{
   position: relative;
   width: 100vw; height: 90vh;
+  margin-top: 5vh;
   overflow: hidden;
 }
 .out_title{
@@ -9,7 +10,7 @@
 .out_title>h2{
   display: inline-block;
   color: #fff;
-  font-size: 3vw;
+  font-size: 50px;
   font-family: 'DungGeunMo';
   margin: 0 3vw;
   padding-top: 20vh;
@@ -20,25 +21,28 @@
   width: 5vw; height: 3vw;
   transform: rotate(-30deg);
 }
+@keyframes ship {
+  
+}
 .char{
   position: absolute; left: 0; top: 50%;
   transform: translateY(-50%);
   width: 20vw; height: 20vw;
-  animation: char linear 8s;
+  animation: char linear 8s infinite;
   opacity: 0;
 }
 @keyframes char {
   0%{opacity: 0;}
-  0.001%{transform: rotate(0deg); left: 0; opacity: 1;}
-  25%{transform: rotate(360deg); left: 30vw;}
-  50%{transform: rotate(720deg); left: 60vw;}
+  0.001%{transform: rotate(0deg); left: -30vw; opacity: 1;}
+  25%{transform: rotate(360deg); left: 10vw;}
+  50%{transform: rotate(720deg); left: 50vw;}
   75%{transform: rotate(1080deg); left: 90vw;}
   100%{transform: rotate(1440deg); left: 120vw; opacity: 1;}
 }
 
 .contact{
   text-align: center;
-  margin-top: 10vh;
+  margin-top: 50px;
 }
 .contact>.list{
   display: flex;
@@ -48,7 +52,7 @@
 .list span{
   color: #fff;
   font-family: 'DungGeunMo';
-  font-size: 2vw;
+  font-size: 30px;
   margin-top: 5vh;
 }
 .list span:nth-of-type(even){
@@ -64,20 +68,46 @@
   margin-top: 0;
 }
 
-.homeBtn{
-  position: absolute; bottom: 8%; left: 50%;
+.topBtn{
+  position: absolute; bottom: 30px; left: 50%;
   transform: translateX(-50%);
-  background-color: #3b3b3b;
+  background-color: transparent;
   padding: 3px;
   border-radius: 5px;
 }
-.homeBtn button{
-  background-color: transparent;
-  border: 1px solid #b2b2b2;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-family: 'DungGeunMo';
-  font-size: 1.2rem;
-  color: #eaeaea;
+.topBtn button{
+  text-align: center;
+  display: inline-block;
+  margin:5px;
+  padding: 10px 5px 10px 10px ;
+  background-color: lightgray;
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: gray;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
   cursor: pointer;
+  box-shadow: 0 .2em gray;
+  font-family: 'DungGeunMo';
+  font-size: 20px;
+}
+.topBtn button:active{
+  box-shadow: none;
+  position: relative;
+  top: .2em;
+}
+
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  .out_title>h2{
+    font-size: 30px;
+  }
+  .list span{
+    font-size: 25px;
+  }
+  .spaceship{
+    transform: scale(1.5) rotate(-30deg);
+  }
 }

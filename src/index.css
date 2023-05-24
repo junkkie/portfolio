@@ -5,8 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
-  cursor: url(./img/cursor.cur), auto;
+  cursor: url(./img/cursor.png), auto;
 }
 
 code {
