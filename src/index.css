@@ -5,11 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-<<<<<<< HEAD
   cursor: url(./img/cursor.png), auto;
-=======
-  cursor: url(./img/cursor.cur), auto;
->>>>>>> f11e2d14e040b78097add33c3108bbcbd0ef562b
 }
 
 code {
