@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8dde61ac.css",
-    "main.js": "/portfolio/static/js/main.a4dd1f29.js",
+    "main.css": "/portfolio/static/css/main.4e2e5977.css",
+    "main.js": "/portfolio/static/js/main.aa70f094.js",
     "static/media/cjone.mp4": "/portfolio/static/media/cjone.b3bdd4f98128c1deea74.mp4",
     "static/media/netflix.mp4": "/portfolio/static/media/netflix.d0302507da5c8fec6df6.mp4",
     "static/media/samsungCNT.mp4": "/portfolio/static/media/samsungCNT.f17f00b62a7275d40a9c.mp4",
@@ -14,10 +14,7 @@
     "static/media/cjone_tab.png": "/portfolio/static/media/cjone_tab.7a823aa4be29f7332f22.png",
     "static/media/firebase.png": "/portfolio/static/media/firebase.5aa7cf22cd45ec6bbec2.png",
     "static/media/cjone_mob.png": "/portfolio/static/media/cjone_mob.aa9266e308f251f72de1.png",
-    "static/media/among-us-robot.png": "/portfolio/static/media/among-us-robot.ca97c2b5c68d17a3ff76.png",
     "static/media/among-us-pink.png": "/portfolio/static/media/among-us-pink.e9c67b55dc95f6174d0c.png",
-    "static/media/among-us-slime.png": "/portfolio/static/media/among-us-slime.8d15eccb6af678cd0a2e.png",
-    "static/media/among-us-tako.png": "/portfolio/static/media/among-us-tako.de8aeaf596ac3b6c27e9.png",
     "static/media/among-us-mint.png": "/portfolio/static/media/among-us-mint.aed5e80d7a593584e3f5.png",
     "static/media/among-us-spaceship.png": "/portfolio/static/media/among-us-spaceship.1d4cab77aa9f15a3ec58.png",
     "static/media/samsung.png": "/portfolio/static/media/samsung.3d421959a282c85d2b6a.png",
@@ -35,13 +32,12 @@
     "static/media/illustrator.png": "/portfolio/static/media/illustrator.c8306d9279929e8b8cfe.png",
     "static/media/pc_mockup.png": "/portfolio/static/media/pc_mockup.7dba871cafbdcc2cd9a9.png",
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
-    "static/media/cursor.cur": "/portfolio/static/media/cursor.e28237360b25854af677.cur",
     "index.html": "/portfolio/index.html",
-    "main.8dde61ac.css.map": "/portfolio/static/css/main.8dde61ac.css.map",
-    "main.a4dd1f29.js.map": "/portfolio/static/js/main.a4dd1f29.js.map"
+    "main.4e2e5977.css.map": "/portfolio/static/css/main.4e2e5977.css.map",
+    "main.aa70f094.js.map": "/portfolio/static/js/main.aa70f094.js.map"
   },
   "entrypoints": [
-    "static/css/main.8dde61ac.css",
-    "static/js/main.a4dd1f29.js"
+    "static/css/main.4e2e5977.css",
+    "static/js/main.aa70f094.js"
   ]
 }
