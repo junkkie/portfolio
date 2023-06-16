@@ -46,10 +46,13 @@
   border-radius: 20px;
   cursor: pointer;
 }
+<<<<<<< HEAD
 .modal_inner>ul>li>a{
   text-decoration: none;
   color: #fff;
 }
+=======
+>>>>>>> f11e2d14e040b78097add33c3108bbcbd0ef562b
 
 .homeBtn{
   position: absolute; bottom: 8%; left: 50%;

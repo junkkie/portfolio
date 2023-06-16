@@ -21,21 +21,34 @@
   width: 5vw; height: 3vw;
   transform: rotate(-30deg);
 }
+<<<<<<< HEAD
 @keyframes ship {
   
 }
+=======
+>>>>>>> f11e2d14e040b78097add33c3108bbcbd0ef562b
 .char{
   position: absolute; left: 0; top: 50%;
   transform: translateY(-50%);
   width: 20vw; height: 20vw;
+<<<<<<< HEAD
   animation: char linear 8s infinite;
+=======
+  animation: char linear 8s;
+>>>>>>> f11e2d14e040b78097add33c3108bbcbd0ef562b
   opacity: 0;
 }
 @keyframes char {
   0%{opacity: 0;}
+<<<<<<< HEAD
   0.001%{transform: rotate(0deg); left: -30vw; opacity: 1;}
   25%{transform: rotate(360deg); left: 10vw;}
   50%{transform: rotate(720deg); left: 50vw;}
+=======
+  0.001%{transform: rotate(0deg); left: 0; opacity: 1;}
+  25%{transform: rotate(360deg); left: 30vw;}
+  50%{transform: rotate(720deg); left: 60vw;}
+>>>>>>> f11e2d14e040b78097add33c3108bbcbd0ef562b
   75%{transform: rotate(1080deg); left: 90vw;}
   100%{transform: rotate(1440deg); left: 120vw; opacity: 1;}
 }
