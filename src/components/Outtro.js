@@ -3,7 +3,6 @@ import Bg from './Bg'
 import spaceship from '../img/among-us-spaceship.png'
 import myChar from '../img/outtro_char.png'
 import '../styles/outtro.css'
-import { Link } from 'react-router-dom';
 
 const Outtro = () => {
 
