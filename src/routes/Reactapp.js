@@ -39,7 +39,6 @@ const Reactapp = () => {
       <div className='react_bg'>
       <Bg />
       </div>
-      <Header />
       <div className='react_app'>
         <h3>REACT APP PROJECTS</h3>
         <ul>

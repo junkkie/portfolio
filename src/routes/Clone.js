@@ -44,7 +44,6 @@ const Clone = () => {
       <div className='clone_bg'>
         <Bg />
       </div>
-      <Header />
       <div className='clone_site'>
         <h3>CLONE SITE PROJECTS</h3>
         <ul>
@@ -127,9 +126,9 @@ const Clone = () => {
                 <li>
                   <span>주요 업무</span>
                   <ul>
-                    <li></li>
                     <li>바닐라 자바스크립트를 이용한 자동 롤링 동영상 배너</li>
                     <li>pc, tablet, mobile 각각의 디바이스의 사이즈에 따라 레이아웃이 바뀌는 반응형 웹사이트 제작</li>
+                    <li>바닐라 자바스크립트를 이용히여 넘겨 볼 수 있는 카드형 리스트</li>
                   </ul>
                 </li>
               </ul>

@@ -13,7 +13,6 @@ const Pure = () => {
       <div className='pure_bg'>
         <Bg />
       </div>
-      <Header />
       <div className='pure_css'>
         <h3>PURE CSS PROJECTS</h3>
         <ul>
