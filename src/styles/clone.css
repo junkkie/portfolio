@@ -213,21 +213,21 @@
     margin-top: 50px;
   }
   .pj_viewer{
-    position: absolute; left: 350px; top: 150px;
+    position: absolute; left: 80px; top: 630px;
   }
   .pj_viewer .logo_img{
     position: absolute; left: -90px; top: -40px;
     width: 150px;
   }
-  .pj_viewer .pc_mockup{
-    position: absolute;
-    width: 350px; height: 192px;
+  .pc_mockup, .tab_mockup, .mob_mockup, .tab_img, .mob_img{
+    display: none;
   }
   .pj_viewer>video{
-    width: 350px;
+    display: none;
   }
   .pj_viewer>a{
     position: absolute; top: -27px; left: 270px;
+    height: 20px;
     font-size: 17px;
   }
   .pj_viewer>.test{
@@ -286,15 +286,15 @@
       position: absolute; left: -90px; top: -40px;
       width: 150px;
     }
-    .pj_viewer .pc_mockup{
-      position: absolute;
-      width: 350px; height: 192px;
+    .pc_mockup, .tab_mockup, .mob_mockup, .tab_img, .mob_img{
+      display: none;
     }
     .pj_viewer>video{
-      width: 350px;
+      display: none;
     }
     .pj_viewer>a{
       position: absolute; top: -27px; left: 270px;
+      height: 20px;
       font-size: 17px;
     }
     .pj_viewer>.test{
